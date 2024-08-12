@@ -5,6 +5,9 @@
 }
 /* General Styling */
 body {
+    background-image: width: 100%;
+    height: auto;
+    display: block;
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -42,8 +45,21 @@ nav ul li a:hover {
 }
 
 .container {
-    width: 1000%;
+    
+    height: auto;
+    display: block;
+   
     margin: 0 auto;
+}
+.h1{
+    position: absolute;
+    padding: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(153, 144, 144); /* Adjust color based on your image */
+    border-radius: 10px;
+
 }
 
 /* Main Section Styling */
@@ -53,4 +69,24 @@ main {
 
 section {
     margin-bottom: 2rem;
+}
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+article h3 {
+    margin-top: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
