@@ -3,9 +3,54 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: green;
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
-.head{
-    background-color: green;
+
+header {
+    background:  rgb(90, 221, 90);
+    color: #e4e130;
+    padding: 1rem 0;
+}
+
+header h1 {
+    margin: 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 1000%;
+    margin: 0 auto;
+}
+
+/* Main Section Styling */
+main {
+    padding: 2rem 0;
+}
+
+section {
+    margin-bottom: 2rem;
 }
