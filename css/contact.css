@@ -35,3 +35,29 @@
   padding:130px  50px ;
 
 }
+
+label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+.in-name{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.in-email{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+.in-msg{
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
