@@ -1,5 +1,6 @@
 .plant-card{
     margin-left: 30px;
+    
     height: 500px;
     width: 250px;
     background-color:white;
@@ -18,26 +19,32 @@
     text-align: center;
 }
 .plant-name{
-    color: rgb(4, 46, 4);
+    color: rgb(29, 120, 53);
+    margin-top: 25px;
 }
 .plant-decription{
     margin:7px;
     margin-top: 10px;
-    color: rgb(11, 70, 11);
+    color:rgb(124, 25, 42);
 
 
+    
+}
+.Plant-description-head{
+    color:  rgb(29, 120, 53);
+    margin-top: 150px;
 }
 .price{
     margin-bottom: 7px;
     
-    color: rgb(14, 70, 14);
+    color: rgb(29, 120, 53);
 }
 .text-highlite{
     background-color:rgb(155, 194, 155) ;
 }
 .buy-now-btn{
     text-decoration: none;
-    background-color:rgb(100, 17, 85);
+    background-color: rgb(29, 120, 53);
     color: white;
     height:40px;
     width: 200px;
@@ -55,11 +62,13 @@
 }
 .card-container{
     display: flex;
+   
     
 }
 .croton-plant-description {
     margin:  70px 25px;
 }
 .top-plant-description{
-    color: rgb(100, 17, 85);
+    color: rgb(88, 7, 72);
+    margin-top: 30px;
 }
