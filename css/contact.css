@@ -99,7 +99,12 @@ label{
 }
 
 .map{
-  height:300px;
-  width: 300px;
-  margin: 10px 10px;
+  width: 600px;
+  margin: 10px  20px;
+}
+
+.map:hover{
+  color:#ccc;
+  transition: 0.5s; 
+  box-shadow: 3px  3px   5px #cccccc;
 }
