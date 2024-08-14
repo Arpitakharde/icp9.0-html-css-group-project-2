@@ -147,5 +147,9 @@ font-size: 60px;
   transition: 0.3s;
 }
 .secound-img{
+    border-radius: 50%;
     padding: 20px;
+}
+.img-heading{
+   margin-top: 100px;
 }
