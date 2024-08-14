@@ -6,32 +6,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact us</title>
     <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="./../style.css">
+
 </head>
 <body>
-    
-    
-<h1> Contace us</h1>
 
-<div id="contact">
-    <h2>Get in Touch</h2>
-    <form>
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-      <br>
-      <br>
-  
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-      <br>
-      <br>
-  
-      <label for="phone">Phone:</label>
-      <input type="tel" id="phone" name="phone">
-      <br>
-      <br>
-      <input type="submit" value="submit" >
-    </form>
-</div>
+    <nav class="navbar">
+        <div class="icon">
+            <i class="fa fa-heart"></i>
+            <i class="fa fa-shopping-cart"></i>
+            <i class="fa fa-user"></i>
+        </div>
+        <h1 class="heading">🍃<span class="Vrindavan">Vrindavan</span> Vihar </h1>
+        <div class="menu">
+            <a href="#">Home</a>
+            <a href="./page/product.html">Product</a>
+            <a href="./page/blog.html">Blogs</a>
+            <a href="./page/about.html">About us</a>
+            <a href="./page/contact.html">Contact</a>
+            </div>
+        </nav>
+
+    
+    <div class="heading">
+		<h1 class="contact-h1">Contact Us</h1>
+    </div>
+
+    <div class="main">
+        <div class="contact-info">
+                <h2 class="contact-h2">Get in Touch</h2>
+                <p>
+                    <img src="./../img/call-img.png"  class="img">&nbsp;
+                    <a href="tel:+1234567890">+1234567890</a>
+                </p>
+    
+                <p>
+                    <img src="./../img/email-img.png" class="img">&nbsp;
+                    <a href="mailto:info@onlineplantwebsite.com">info@onlineplantwebsite.com</a>&nbsp;
+                </p>
+    
+                <p>
+                    <img src="./../img/location-img.png" class="img">&nbsp;
+                    Address: 123 Main St, Anytown, USA 12345
+                </p> 
+        </div>
+
+        <div class="form">
+            <h2 class="form-h2">Send Us a Message</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" class="in-name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" class="in-email"><br><br>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" class="in-msg"></textarea><br><br>
+                <input type="submit" value="Send Message" class="submit">
+            </form>
+        </div>	
+    </div>
+
+
+
+
+    
 </body>
 </html>
 
