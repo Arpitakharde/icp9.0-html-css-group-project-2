@@ -19,36 +19,39 @@
     text-align: center;
 }
 .plant-name{
-    color: rgb(29, 120, 53);
+    color: #b3003b;
+    margin-left: 5px;
+    margin-right: 5px;
     margin-top: 25px;
 }
 .plant-decription{
     margin:7px;
     margin-top: 10px;
-    color:rgb(124, 25, 42);
+    color: rgb(8, 80, 27);
 
 
     
 }
 .Plant-description-head{
-    color:  rgb(29, 120, 53);
+    color: #b3003b;
     margin-top: 150px;
 }
 .price{
     margin-bottom: 7px;
+    margin-top: 10px;
     
-    color: rgb(29, 120, 53);
+    color: rgb(8, 80, 27);
 }
 .text-highlite{
     background-color:rgb(155, 194, 155) ;
 }
 .buy-now-btn{
     text-decoration: none;
-    background-color: rgb(29, 120, 53);
+    background-color: #b3003b;
     color: white;
     height:40px;
     width: 200px;
-    margin-top: 5px;
+    margin-top: 20px;
     font-size: 20px;
     border: 0px solid rgb(4, 34, 4);
     border-radius:  0px 0px 0px 10px;
@@ -69,6 +72,6 @@
     margin:  70px 25px;
 }
 .top-plant-description{
-    color: rgb(88, 7, 72);
+    color: rgb(4, 59, 19);
     margin-top: 30px;
 }
