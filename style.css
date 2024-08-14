@@ -43,11 +43,9 @@
 }
 .menu a{
     color: grey;
-    
     padding:40px 20px;
     font-size: 20px;
     text-decoration:  none;
-    
     cursor: pointer;
     font-weight: bold;
 }
@@ -86,8 +84,6 @@
     padding: 20px;
     width: 100px;
     padding: 8px;
-   
-   
 }
 .tagline{
    
@@ -110,4 +106,46 @@ font-size: 60px;
     background-color: rgb(18, 20, 20);
     opacity: 0.7;
     padding: 10px;
+}
+.main-cantain{
+    margin-left: 40px;
+}
+
+.main-cantain-heading{
+    margin-top: 30px;
+    font-size: 40px;
+    font-family: "Marck Script", cursive;
+    font-weight: normal;
+
+}
+.main-cantain-para{
+    font-size: 20px;
+}
+.main-cantain-button{
+    margin-top: 20px;
+    padding: 8px 25px;
+    background-color:  rgb(80, 17, 67);
+    font-size: 15px;
+    color: white;
+    font-weight: bold;
+    border: none;
+}
+.main-cantain-img{
+    display: inline;
+}
+
+.side-img{
+    margin-top: 30px;
+    padding: 20px;
+    height: 400px;
+     width: 700px;
+     border-radius: 20px;
+     
+}
+.side-img:hover{
+  border-radius: 60px;
+  transition: 0.3s;
+}
+.secound-img{
+    padding: 20px;
 }
