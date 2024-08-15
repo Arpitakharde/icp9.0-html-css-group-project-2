@@ -8,3 +8,22 @@
   color: rgb(75, 178, 75);
   transition: 0.3s;
 }
+
+.menu{
+    color: white;
+    text-align: end;
+}
+
+.menu a{
+    color: grey;
+    padding:40px 20px;
+    font-size: 20px;
+    text-decoration:  none;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: rgb(79, 203, 79);
+    transition: 0.3s;
+}
