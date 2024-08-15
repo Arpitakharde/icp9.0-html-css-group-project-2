@@ -1,0 +1,10 @@
+.icon i{
+    font-size: 23px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+
+.icon i:hover{
+  color: rgb(75, 178, 75);
+  transition: 0.3s;
+}
