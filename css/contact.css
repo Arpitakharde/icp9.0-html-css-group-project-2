@@ -1,11 +1,47 @@
+.navbar{
+  height: 100px;
+  background-color:white;
+  background-image: url(./../img/nav-background.jpg);
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+}
+
+.menu{
+  color: white;
+  
+  text-align: end;
+}
+.menu a{
+  color:white;
+  padding:40px 20px;
+  font-size: 20px;
+  text-decoration:  none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.menu a:hover{
+  color: rgb(79, 203, 79);
+  transition: 0.3s;
+}
+
+.Vrindavan{
+  font-size: 60px;
+  font-weight: normal;
+  font-family: "Marck Script", cursive;
+  color:#c2f0c2;
+}
+
 .heading{
 
   padding: 10px;
   text-align: center;
+  color:#c2f0c2;
 }
 
 .contact-h1{
   font-size: 30px;
+  color:#3e8e41;
 }
 
 .contact-h1:hover{
@@ -96,4 +132,15 @@ label{
 .img{
   height:20px;
   width: 20px;
+}
+
+.map{
+  width: 600px;
+  margin: 10px  20px;
+}
+
+.map:hover{
+  color:#ccc;
+  transition: 0.5s; 
+  box-shadow: 3px  3px   5px #cccccc;
 }
