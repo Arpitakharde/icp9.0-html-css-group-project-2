@@ -1,3 +1,12 @@
+.navbar{
+  height: 70px;
+  background-color:white;
+  background-image: url(./../img/nav-background.jpg);
+  display: flex;
+  justify-content: space-between;
+ align-items: center;
+}
+
 .heading{
 
   padding: 10px;
