@@ -56,6 +56,7 @@
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url(./../img/get-in-touch.avif);
  
 }
 
@@ -77,6 +78,7 @@
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   display:flex;
+  background-image:  url(./../img/bac-img-form.avif);
   
 }
 
@@ -86,6 +88,7 @@
 .contact-form-h2{
   text-align: left;
   padding:130px  20px ;
+  color:white;
 
 }
 
@@ -99,6 +102,19 @@ label{
   padding: 5px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
+  
+}
+
+.contact-name{
+  color:white;
+}
+
+.contact-email{
+  color:white;
+}
+
+.contact-msg{
+  color:white;
 }
 
 .in-email{
@@ -106,6 +122,7 @@ label{
   padding: 5px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
+  
 }
 
 .in-msg{
@@ -113,6 +130,7 @@ label{
   padding: 5px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
+
 }
 
 .submit{
@@ -149,6 +167,6 @@ label{
 
 .contact-map:hover{
   color:#ccc;
-  transition: 0.5s; 
+  transition: 0.3s; 
   box-shadow: 3px  3px   5px #cccccc;
 }
