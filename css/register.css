@@ -27,3 +27,50 @@
     color: rgb(79, 203, 79);
     transition: 0.3s;
 }
+
+.Vrindavan{
+    font-size: 60px;
+    font-weight: normal;
+    font-family: "Marck Script", cursive;
+}
+
+  .navbar{
+    height: 70px;
+    /* background-color:white; */
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+  }
+  
+  .heading{
+    padding: 10px;
+    text-align: center;
+    color:#c2f0c2;
+    font-size: 50px;
+    color: rgb(29, 120, 53);
+  }
+  
+  .contact-h1{
+    font-size: 30px;
+    color:#3e8e41;
+  }
+  
+  .contact-h1:hover{
+    color: rgb(75, 178, 75);
+    transition: 0.3s;
+  }
+
+  .form {
+    width:620px;
+    margin: 10px;
+    padding: 10px  20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: block;
+    margin: 20px auto;
+    
+  }
+  .form-h2{
+    text-align: center;
+  }
