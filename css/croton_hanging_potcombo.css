@@ -84,7 +84,15 @@
 .name{
     color:  rgb(80, 17, 67);
 }
-
+.page-switch{
+    margin-top: 40px;
+    text-align: center;
+}
+.page-switch-btn{
+    height: 30px;
+    width: 30px;
+    text-decoration: none;
+}
 
 
 
