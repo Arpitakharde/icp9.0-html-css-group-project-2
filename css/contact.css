@@ -1,5 +1,5 @@
 .navbar{
-  height: 70px;
+  height: 100px;
   background-color:white;
   background-image: url(./../img/nav-background.jpg);
   display: flex;
