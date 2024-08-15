@@ -13,12 +13,14 @@
     box-shadow: 2px 3px 6px 2px black;
     background-color:;
     background-color:rgb(120, 230, 120);
+    transform: translateY(-5px); /* Move the card up slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 
 .plant-img{
     width: 207px;
-    height: 200px;
+    height: 210px;
     margin: 10px;
     margin-left: 20px;
     border-radius:12px;
@@ -45,7 +47,7 @@
     color: white;
     height:40px;
     width: 200px;
-    margin-top: 20px;
+    margin-top: 24px;
     font-size: 20px;
     border: 0px solid rgb(16, 64, 16);
     cursor: pointer;
@@ -54,8 +56,9 @@
 .buy-now-btn:hover{
     border: 3px solid rgb(84, 124, 84);
     box-shadow: 0px 0px 10px 2px ;
-    transition: 0.2s;
+
     border-radius: 20px;
+    transform: translateY(-5px); /* Move the card up slightly on hover */
 }
 
 .rate{
