@@ -54,3 +54,17 @@
     border: 0px solid rgb(16, 64, 16);
     cursor: pointer;
 }
+
+.buy-now-btn:hover{
+    border: 3px solid rgb(17, 72, 17);
+    box-shadow: 0px 0px 10px 2px ;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
+.aquatic-card:hover{
+    transition: 0.5s;
+    box-shadow: 2px 3px 6px 2px black;
+    background-color:;
+    background-color:rgb(204, 245, 204);
+}
