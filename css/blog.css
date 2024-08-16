@@ -3,50 +3,20 @@
     padding: 0;
     box-sizing: border-box;
 }
-.navbar{
-    height: 100px;
-    background-color:white;
-    background-image: url(./../img/nav-background.jpg);
-    display: flex;
-    justify-content: space-between;
-   align-items: center;
-  }
-  
-  .menu{
-    color: white;
-    
-    text-align: end;
-  }
-  .menu a{
-    color:white;
-    padding:40px 20px;
-    font-size: 20px;
-    text-decoration:  none;
-    cursor: pointer;
-    font-weight: bold;
-  }
-  .menu a:hover{
-    color: rgb(79, 203, 79);
-    transition: 0.3s;
-  }
-  
-  .Vrindavan{
-    font-size: 60px;
-    font-weight: normal;
-    font-family: "Marck Script", cursive;
-    color:#c2f0c2;
-  }
+
 
 /* Main Section Styling */
-main {
-    padding: 2rem 0;
-}
+
 .blog-header {
-    background-color: #29721b;
+    
     padding: 10px;
     text-align: center;
+
     color:#ffffff
 
+
+
+    color:black
 
 }
 
