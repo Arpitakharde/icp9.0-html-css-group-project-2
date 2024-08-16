@@ -4,35 +4,40 @@
     box-sizing: border-box;
 }
 .home-header{
-    background-image:url(./img/background.webp );
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
+    width: 100%;
+   height: 100vh;
 }
 .navbar{
-    height: 70px;
-    background-color:white;
+  
+    width: 100%;
+    
+    background-color: rgb(29, 120, 53);
+    
     display: flex;
     justify-content: space-between;
    align-items: center;
+   
 }
 .icon i{
     font-size: 23px;
     padding: 0px 10px;
     cursor: pointer;
+    color: white;
 }
 .icon i:hover{
   color: rgb(75, 178, 75);
   transition: 0.3s;
 }
 .heading{
+    color: white;
     text-align: center;
     font-size: 50px;
     color: rgb(29, 120, 53);
    
 }
 .Vrindavan{
-    font-size: 60px;
+    color: white;
+    font-size: 50px;
     font-weight: normal;
     font-family: "Marck Script", cursive;
 }
@@ -42,7 +47,8 @@
     text-align: end;
 }
 .menu a{
-    color: grey;
+    
+    color: white;
     padding:40px 20px;
     font-size: 20px;
     text-decoration:  none;
@@ -75,11 +81,13 @@
 .search-button{
  margin-left: 10px;
     border: none;
-    background-color: rgb(207, 94, 184)  ;
+    background-color:  rgb(80, 17, 67); 
+    padding: 0px 10px;
     border-radius: 10px;
 
 }
 .search-button i{
+    color: white;
     border-radius: 10px;
     padding: 20px;
     width: 100px;
@@ -147,5 +155,58 @@ font-size: 60px;
   transition: 0.3s;
 }
 .secound-img{
+    border-radius: 50%;
     padding: 20px;
 }
+.img-heading{
+   margin-top: 100px;
+}
+
+footer {
+    width: 100%;
+    background-color: rgb(29, 120, 53);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-content h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .footer-content p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .socials {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .socials li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .socials li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
+
+
+
+

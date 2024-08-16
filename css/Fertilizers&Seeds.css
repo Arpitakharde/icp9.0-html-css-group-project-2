@@ -1,6 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    background-color: white;
+}
 .Fertilizers-card{
     margin-left: 48px;
-    height: 420px;
+    height: 422px;
     width: 240px;
     background-color:white;
     border: 1px solid rgb(4, 34, 4);
@@ -20,7 +28,7 @@
 }
 .text-centre1{
     text-align: center;
-    margin-top: 5px;
+
 }
 .Ferti-name{
     color: rgb(10, 58, 10);
@@ -37,7 +45,7 @@
     color: white;
     height:40px;
     width: 200px;
-    margin-top: 15px;
+    margin-top: 12px;
     font-size: 20px;
     border: 0px solid rgb(16, 64, 16);
     cursor: pointer;
@@ -57,9 +65,17 @@
     color: grey;
 }
 .heading2{
-    text-align: center;
+    text-align:center;
     margin: 7px;
-    margin-top: 15px;
+    margin-top: 17px;
+    margin-bottom: 17px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color: darkolivegreen;
+}
+.paragraph1{
+    color: rgb(67, 84, 34);
+    margin-left:24px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 7px;
+    font-size: 19px;
 }
