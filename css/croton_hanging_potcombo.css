@@ -1,74 +1,97 @@
 .plant-card{
     margin: 20px;
-    height: 420px;
-    width: 240px;
+    height: 440px;
+    width: 250px;
     background-color:white;
     border: 1px solid rgb(4, 34, 4);
-    box-shadow: 2px 3px 6px 3px #808080;
+    box-shadow: 2px 3px 6px 3px #3b3636;
     border-radius: 0px 0px 0px 19px;
     
 }
 .plant-card:hover{
     transition: 0.2s;
     box-shadow: 2px 3px 6px 2px black;
-    background-color:;
     background-color:rgb(120, 230, 120);
+    transform: translateY(-5px); /* Move the card up slightly on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-
 
 .plant-img{
     width: 207px;
-    height: 200px;
+    height: 210px;
     margin: 10px;
-    margin-left: 16px;
+    margin-left: 20px;
     border-radius:12px;
     border: 2px solid black;
 }
+
 .plant-img:hover{
     box-shadow: 0px 0px 10px 0px  rgb(111, 116, 116);
 }
+
 .text-centre{
     text-align: center;
 }
+
 .plant-name{
     color: rgb(14, 70, 14);
-    margin-bottom: 15px;
+    margin-bottom: 5px;
 }
+
 .description{
     margin:2px;
-    margin-top: 20px;
+    margin-top: 15px;
     color: rgb(31, 104, 31);
 }
+
 .buy-now-btn{
     text-decoration: none;
-    background-color:rgb(33, 119, 33);
+    background-color: rgb(80, 17, 67);
     color: white;
     height:40px;
     width: 200px;
-    margin-top: 30px;
+    margin-top: 24px;
     font-size: 20px;
     border: 0px solid rgb(16, 64, 16);
     cursor: pointer;
     border-radius: 0px 0px 0px 10px;
 }
+
 .buy-now-btn:hover{
     border: 3px solid rgb(84, 124, 84);
     box-shadow: 0px 0px 10px 2px ;
-    transition: 0.2s;
     border-radius: 20px;
+    transform: translateY(-5px); /* Move the card up slightly on hover */
 }
-.plant-card:hover{
-    transition: 0.2s;
-    box-shadow: 2px 3px 6px 2px black;
-    background-color:;
-    background-color:rgb(120, 230, 120);
-}
+
 .rate{
-    
     color: grey;
 }
-.plant-container{
+
+.card{
     display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
+
+.brief-description{
+    color:  rgb(80, 17, 67);
+}
+
+.description{
+    
+}
+
+.name{
+    color:  rgb(80, 17, 67);
+}
+.page-switch-btn{
+    height: 30px;
+    width: 35px;
+}
+.page-switch{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+

@@ -4,14 +4,16 @@
     box-sizing: border-box;
 }
 .home-header{
-    background-image:url(./img/background.webp );
+   
+   
     background-size: cover;
     background-attachment: fixed;
     height: 100vh;
 }
 .navbar{
+    color: white;
     height: 70px;
-    background-color:white;
+    background-image:url(./../img/nav-background.jpg);
     display: flex;
     justify-content: space-between;
    align-items: center;
@@ -20,18 +22,21 @@
     font-size: 23px;
     padding: 0px 10px;
     cursor: pointer;
+    color: white;
 }
 .icon i:hover{
   color: rgb(75, 178, 75);
   transition: 0.3s;
 }
 .heading{
+    color: white;
     text-align: center;
     font-size: 50px;
     color: rgb(29, 120, 53);
    
 }
 .Vrindavan{
+    color: white;
     font-size: 60px;
     font-weight: normal;
     font-family: "Marck Script", cursive;
@@ -42,7 +47,8 @@
     text-align: end;
 }
 .menu a{
-    color: grey;
+    
+    color: white;
     padding:40px 20px;
     font-size: 20px;
     text-decoration:  none;
@@ -75,11 +81,13 @@
 .search-button{
  margin-left: 10px;
     border: none;
-    background-color: rgb(207, 94, 184)  ;
+    background-color:  rgb(80, 17, 67); 
+    padding: 0px 10px;
     border-radius: 10px;
 
 }
 .search-button i{
+    color: white;
     border-radius: 10px;
     padding: 20px;
     width: 100px;
@@ -147,5 +155,13 @@ font-size: 60px;
   transition: 0.3s;
 }
 .secound-img{
+    border-radius: 50%;
     padding: 20px;
 }
+.img-heading{
+   margin-top: 100px;
+}
+
+
+
+

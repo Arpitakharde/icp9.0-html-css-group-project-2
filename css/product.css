@@ -4,55 +4,33 @@
     box-sizing: border-box;
 }
 
-.head{
-    background-color: green;
-}
-.card{
-    display: inline-block;
-    height: 420px;
-    width: 250px;
-    text-align: center;
-    padding-top: 20px;
-    margin-top: 10px;
-    margin: 60px;
-    border-radius: 10px;
-    box-shadow: 2px 4px 2px 4px gray;
-    transition: transform 0.3s ease, box-shadow 0.3s ease; 
-}
 
+.product-section{
+    background-color: rgb(232, 239, 233);
+   margin-top: 20px;
+   margin-left: 20px;
+    width: 97%;
+    height: 100vh;
+
+
+}
+.product-poster-sale{
+    padding: 30px;
+    border: 9px double grey;
+    
+}
+.product-heading{
+    padding: 10px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: normal;
+    font-family: "Marck Script", cursive;
+   }
+.trending-img{
+    border-radius: 50%;
+}
 
 .card:hover {
     transform: translateY(-5px); /* Move the card up slightly on hover */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);}
 
-
-.card h2{
- padding: 5px;
- font-family: "Marck Script", cursive;
-    
-}
-.card h2:hover{
- color: rgb(232, 12, 85);
-}
-.product-para{
-    padding: 10px;
-    font-size: 17px;
-  
-}
-.card b:hover{
-    color: rgb(232, 12, 85);
-   }
-button{
-    padding: 7px 30px;
-   margin-top: 10px;
-    color: white;
-    background: green;
-    font-size: 15px;
-    font-weight: bold;
-    border: none;
-    text-decoration: none;
-    
-}
-button:hover{
-   
-}
