@@ -4,19 +4,19 @@
     box-sizing: border-box;
 }
 .home-header{
-   
-   
-    background-size: cover;
-    background-attachment: fixed;
-    height: 100vh;
+    width: 100%;
+   height: 100vh;
 }
 .navbar{
-    color: white;
-    height: 70px;
-    background-image:url(./../img/nav-background.jpg);
+  
+    width: 100%;
+    
+    background-color: rgb(29, 120, 53);
+    
     display: flex;
     justify-content: space-between;
    align-items: center;
+   
 }
 .icon i{
     font-size: 23px;
@@ -37,7 +37,7 @@
 }
 .Vrindavan{
     color: white;
-    font-size: 60px;
+    font-size: 50px;
     font-weight: normal;
     font-family: "Marck Script", cursive;
 }
@@ -161,6 +161,51 @@ font-size: 60px;
 .img-heading{
    margin-top: 100px;
 }
+
+footer {
+    width: 100%;
+    background-color: rgb(29, 120, 53);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-content h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .footer-content p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .socials {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .socials li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .socials li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
 
 
 
