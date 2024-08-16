@@ -20,11 +20,13 @@
     text-align: center;
 }
 .Flower-name{
+    margin-top: ;
     color: rgb(14, 70, 14);
 }
 .decription{
-    margin:2px;
-    margin-top: 10px;
+    font-size: 20px;
+   padding: 0px 5px;
+    margin-top: 20px;
     color: rgb(31, 104, 31);
 }
 .buy-now-btn{
@@ -33,7 +35,7 @@
     color: white;
     height:40px;
     width: 200px;
-    margin-top: 15px;
+    margin-top: 25px;
     font-size: 20px;
     border: 0px solid rgb(16, 64, 16);
     cursor: pointer;
