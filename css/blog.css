@@ -3,9 +3,100 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: green;
+.home-header{
+    background-image:url(./img/background.webp );
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
 }
-.head{
-    background-color: green;
+.navbar{
+    height: 70px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
+}
+.icon i{
+    font-size: 23px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.icon i:hover{
+  color: rgb(75, 178, 75);
+  transition: 0.3s;
+}
+.heading{
+    text-align: center;
+    font-size: 50px;
+    color: rgb(29, 120, 53);
+   
+}
+.Vrindavan{
+    font-size: 60px;
+    font-weight: normal;
+    font-family: "Marck Script", cursive;
+}
+.menu{
+    color: white;
+    
+    text-align: end;
+}
+.menu a{
+    color: grey;
+    padding:40px 20px;
+    font-size: 20px;
+    text-decoration:  none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.menu a:hover{
+    color: rgb(79, 203, 79);
+    transition: 0.3s;
+}
+
+.container {
+    
+    height: auto;
+    display: block;
+   
+    margin: 0 auto;
+}
+.h1{
+    position: absolute;
+    padding: auto;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(153, 144, 144); /* Adjust color based on your image */
+    border-radius: 10px;
+
+}
+
+/* Main Section Styling */
+main {
+    padding: 2rem 0;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+section h2 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+article h3 {
+    margin-top: 1rem;
+}
+
+/* Footer Styling */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
 }
