@@ -3,45 +3,55 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* General Styling */
-body {
-    background-image: width: 100%;
-    height: auto;
-    display: block;
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+.home-header{
+    background-image:url(./img/background.webp );
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
 }
-
-header {
-    background:  rgb(90, 221, 90);
-    color: #e4e130;
-    padding: 1rem 0;
+.navbar{
+    height: 70px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+   align-items: center;
 }
-
-header h1 {
-    margin: 0;
+.icon i{
+    font-size: 23px;
+    padding: 0px 10px;
+    cursor: pointer;
+}
+.icon i:hover{
+  color: rgb(75, 178, 75);
+  transition: 0.3s;
+}
+.heading{
     text-align: center;
+    font-size: 50px;
+    color: rgb(29, 120, 53);
+   
 }
-
-nav ul {
-    list-style: none;
-    padding: 0;
+.Vrindavan{
+    font-size: 60px;
+    font-weight: normal;
+    font-family: "Marck Script", cursive;
 }
-
-nav ul li {
-    display: inline;
-    margin: 0 15px;
+.menu{
+    color: white;
+    
+    text-align: end;
 }
-
-nav ul li a {
-    color: #fff;
-    text-decoration: none;
+.menu a{
+    color: grey;
+    padding:40px 20px;
+    font-size: 20px;
+    text-decoration:  none;
+    cursor: pointer;
+    font-weight: bold;
 }
-
-nav ul li a:hover {
-    text-decoration: underline;
+.menu a:hover{
+    color: rgb(79, 203, 79);
+    transition: 0.3s;
 }
 
 .container {
