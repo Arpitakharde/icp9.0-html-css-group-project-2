@@ -1,0 +1,56 @@
+.aquatic-card{
+    margin: 20px;
+    height: 420px;
+    width: 240px;
+    background-color:white;
+    border: 1px solid rgb(4, 34, 4);
+    box-shadow: 2px 3px 6px 3px #808080;
+    border-radius: 0px 0px 0px 19px;
+    
+}
+
+.plant-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.text{
+    font-family:"Marck Script",cursive;
+}
+
+.plant-img{
+    width: 207px;
+    height: 200px;
+    margin: 10px;
+    margin-left: 16px;
+    border-radius:12px;
+    border: 2px solid black;
+}
+
+.text-centre1{
+    text-align: center;
+}
+
+.rate{
+    color: grey;
+}
+
+.decription{
+    margin:2px;
+    margin-top: 10px;
+    color: rgb(31, 104, 31);
+}
+
+.buy-now-btn{
+    text-decoration: none;
+    background-color:rgb(33, 119, 33);
+    color: white;
+    height:40px;
+    width: 200px;
+    margin-top: 15px;
+    font-size: 20px;
+    border: 0px solid rgb(16, 64, 16);
+    cursor: pointer;
+}
