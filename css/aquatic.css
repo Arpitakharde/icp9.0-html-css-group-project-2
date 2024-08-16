@@ -9,6 +9,14 @@
     
 }
 
+.heading{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(29, 120, 53);
+   
+}
+
 .plant-container{
     display: flex;
     justify-content: space-around;
