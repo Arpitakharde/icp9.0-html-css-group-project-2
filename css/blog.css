@@ -11,7 +11,13 @@
     
     padding: 10px;
     text-align: center;
+
+    color:#ffffff
+
+
+
     color:black
+
 }
 
 .blog-container {
@@ -117,10 +123,6 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-h1 {
-    text-align: center;
-    color: #333;
-}
 
   .blogvideo-container {
     position: relative;
