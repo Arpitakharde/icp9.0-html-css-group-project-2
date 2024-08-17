@@ -147,11 +147,12 @@ label{
 
 .contact-map{
   width: 600px;
-  margin: 10px  20px;
+  margin: 30px  60px;
+
 }
 
 .contact-map:hover{
   color:#ccc;
   transition: 0.3s; 
-  box-shadow: 3px  3px   5px #bebebe;
+  box-shadow: 3px  3px  10px  5px #bebebe;
 }
