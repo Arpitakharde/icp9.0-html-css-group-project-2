@@ -109,9 +109,3 @@
     border-radius: 5px;
 }
 
-.herbal-card:hover{
-    transition: 0.5s;
-    box-shadow: 2px 3px 6px 2px black;
-    background-color:;
-    background-color:rgb(204, 245, 204);
-}
