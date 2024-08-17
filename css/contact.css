@@ -51,6 +51,7 @@
 .contact-h2{
   text-align: center;
   padding:50px  50px;
+  color:#fff;
  
 }
 
@@ -147,8 +148,8 @@ label{
 
 .contact-map{
   width: 600px;
-  margin: 30px  60px;
-  border :#ccc;
+  margin: 10px  60px;
+  border :#a6a5a5 solid 2px;
 
 }
 
