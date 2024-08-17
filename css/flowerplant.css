@@ -1,17 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 .Flower-card{
     margin: 20px;
-    height: 420px;
+    height: 400px;
     width: 240px;
     background-color:white;
     border: 1px solid rgb(4, 34, 4);
     box-shadow: 2px 3px 6px 3px #808080;
     border-radius: 0px 0px 0px 19px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     
 }
 .Flower-img{
     width: 207px;
     height: 200px;
-    margin: 10px;
+    margin: 10px ;
     margin-left: 16px;
     border-radius:12px;
     border: 2px solid black;
@@ -20,11 +26,13 @@
     text-align: center;
 }
 .Flower-name{
+    margin-top: ;
     color: rgb(14, 70, 14);
 }
 .decription{
-    margin:2px;
-    margin-top: 10px;
+    font-size: 20px;
+   padding: 0px 5px;
+    margin-top: 20px;
     color: rgb(31, 104, 31);
 }
 .buy-now-btn{
@@ -33,7 +41,11 @@
     color: white;
     height:40px;
     width: 200px;
-    margin-top: 15px;
+
+    margin-top: 20px;
+
+    margin-top: 25px;
+
     font-size: 20px;
     border: 0px solid rgb(16, 64, 16);
     cursor: pointer;
@@ -47,7 +59,6 @@
 .Flower-card:hover{
     transition: 0.5s;
     box-shadow: 2px 3px 6px 2px black;
-    background-color:;
     background-color:rgb(204, 245, 204);
 }
 .rate{
@@ -57,4 +68,20 @@
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+}
+
+.heading2{
+    text-align:center;
+    margin: 7px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: darkolivegreen;
+}
+.paragraph1{
+    color: rgb(67, 84, 34);
+    margin-left:24px;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 7px;
+    font-size: 19px;
 }

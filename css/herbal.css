@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.herbal-card:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    box-shadow: 0 8px 16px black;
+}
+
+.heading{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(29, 120, 53);
+   
+}
+
+.heading2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: normal;
+    margin-top: 30px;
+    font-family: "Cinzel", serif;
+    letter-spacing: 0.3em;
+    color: darkorchid;
+   
+    
+}
+
+.herbal-heading{
+  
+    font-size:50px ;
+    color: darkorchid;
+}
+
+
+.herbal-paragraph{
+    margin-top: 30px;
+    text-align: justify;
+    line-height: 1.4em;
+ padding: 20px 40px;
+ font-size: 20px;
+}
+
+.herbal-card{
+    margin: 20px;
+    height: 420px;
+    width: 240px;
+    background-color:white;
+    border: 1px solid rgb(4, 34, 4);
+    box-shadow: 2px 3px 6px 3px #808080;
+    border-radius: 0px 0px 0px 19px;
+    
+}
+
+.plant-container{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+
+.text{
+    font-family:"Marck Script",cursive;
+}
+
+.plant-img{
+    width: 207px;
+    height: 200px;
+    margin: 10px;
+    margin-left: 16px;
+    border-radius:12px;
+    border: 2px solid black;
+}
+
+.text-centre1{
+    text-align: center;
+}
+
+.rate{
+    color: grey;
+}
+
+.decription{
+    margin:2px;
+    margin-top: 10px;
+    color: rgb(31, 104, 31);
+}
+
+.buy-now-btn{
+    text-decoration: none;
+    background-color:rgb(33, 119, 33);
+    color: white;
+    height:40px;
+    width: 200px;
+    margin-top: 15px;
+    font-size: 20px;
+    border: 0px solid rgb(16, 64, 16);
+    cursor: pointer;
+}
+
+.buy-now-btn:hover{
+    border: 3px solid rgb(17, 72, 17);
+    box-shadow: 0px 0px 10px 2px ;
+    transition: 0.3s;
+    border-radius: 5px;
+}
+
