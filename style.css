@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .home-header{
  width: 100%;
 height: 100vh;
 }
+
 .navbar{
   width: 70px;
 color: white;
@@ -23,10 +25,12 @@ background-color: rgb(29, 120, 53);
     cursor: pointer;
     color: white;
 }
+
 .icon i:hover{
   color: rgb(75, 178, 75);
   transition: 0.3s;
 }
+
 .heading{
     color: white;
     text-align: center;
@@ -34,6 +38,7 @@ background-color: rgb(29, 120, 53);
     color: rgb(29, 120, 53);
    
 }
+
 .Vrindavan{
     color: white;
     font-size: 50px;
@@ -44,6 +49,7 @@ background-color: rgb(29, 120, 53);
     color: white;
     text-align: end;
 }
+
 .menu a{
     color: white;
     padding:40px 20px;
@@ -52,28 +58,25 @@ background-color: rgb(29, 120, 53);
     cursor: pointer;
     font-weight: bold;
 }
+
 .menu a:hover{
     color: rgb(79, 203, 79);
     transition: 0.3s;
 }
 
+/* header section start */
+
 .main-heading{
     display: flex;
     justify-content: space-evenly;
-    text-align: center;
+    
 }
-
-
-
-
-
 .tagline{
    color: black;
     width: 50%;
-    
-   
-    
-}
+    margin-right: 20px;
+  }
+
 .tagline span{
   font-size: 40px;
   color: green;
@@ -97,7 +100,6 @@ font-family: "Marck Script", cursive;
     padding: 10px;
 }
 .tagline-button{
-  
   margin-top: 30px;
   background-color:  #4CAF50;
   color: #fff;
@@ -108,16 +110,18 @@ font-family: "Marck Script", cursive;
   cursor: pointer;
 
 }
+
+/* header section khatam huaaa*/
+
 .main-cantain{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   text-align: center;
+ }
 
-}
 
-
-.main-cantain-heading{
-    margin-top: 30px;
+.cantain-heading{
+    margin-top: 50px;
     font-size: 40px;
     font-family: "Marck Script", cursive;
     font-weight: normal;
@@ -141,30 +145,49 @@ font-family: "Marck Script", cursive;
     margin-left: 30px;
 }
 
-.side-img{
-    margin-top: 30px;
-    padding: 20px;
-    height: 400px;
-     width: 700px;
-     border-radius: 20px;
-     
-}
-.side-img:hover{
-  border-radius: 60px;
-  transition: 0.3s;
-}
-.secound-img-cantain{
 
 
-}
 
 
-.secound-img{
-    border-radius: 30%;
-    padding: 20px;
-}
+
+
+
 .img-heading{
    margin-top: 100px;
+}
+
+.categroy-cantainer{
+  width: 80%;
+display: flex;
+flex-wrap: wrap;
+margin-left: 160px;
+
+}
+
+.secound-img{
+  border-radius: 50px;
+  padding: 20px;
+}
+ 
+
+.img-name{
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+.side-img{
+  margin-top: 30px;
+  padding: 20px;
+  height: 400px;
+   width: 700px;
+   border-radius: 20px;
+   
+}
+
+.side-img:hover{
+border-radius: 60px;
+transition: 0.3s;
 }
 
 footer {
