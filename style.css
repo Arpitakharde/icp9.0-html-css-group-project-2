@@ -145,8 +145,23 @@ font-family: "Marck Script", cursive;
     margin-left: 30px;
 }
 
+<<<<<<< HEAD
 
 
+=======
+.side-img{
+    margin-top: 30px;
+    padding: 20px;
+    height: 400px;
+     width: 700px;
+     border-radius: 20px;
+     
+}
+.side-img:hover{
+  border-radius: 60px;
+  transition: 0.3s;
+}
+>>>>>>> bfc488e078eb46de3ceeb726c5f94c418f1f635f
 
 
 
