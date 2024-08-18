@@ -19,16 +19,23 @@ background-color: rgb(29, 120, 53);
  align-items: center;
    
 }
+
+.icon{
+  margin-left: 20px;
+}
 .icon i{
+  margin-left: 10px;
     font-size: 23px;
-    padding: 0px 10px;
+    padding:  7px 5px;
     cursor: pointer;
     color: white;
 }
 
 .icon i:hover{
+  border-radius: 5px;
+  background-color: white;
   color: rgb(75, 178, 75);
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .heading{
@@ -52,7 +59,7 @@ background-color: rgb(29, 120, 53);
 
 .menu a{
     color: white;
-    padding:40px 20px;
+    padding: 10px 20px;
     font-size: 20px;
     text-decoration:  none;
     cursor: pointer;
@@ -60,8 +67,10 @@ background-color: rgb(29, 120, 53);
 }
 
 .menu a:hover{
-    color: rgb(79, 203, 79);
-    transition: 0.3s;
+  border-radius: 25px;
+  background-color: white;
+  color: rgb(79, 203, 79);
+    transition: 0.5s;
 }
 
 /* header section start */
@@ -145,10 +154,10 @@ font-family: "Marck Script", cursive;
     margin-left: 30px;
 }
 
-<<<<<<< HEAD
 
 
-=======
+
+
 .side-img{
     margin-top: 30px;
     padding: 20px;

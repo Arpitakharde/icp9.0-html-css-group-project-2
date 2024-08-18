@@ -7,17 +7,15 @@
 
 /* Main Section Styling */
 
-.blog-header {
-    
-    padding: 10px;
-    text-align: center;
-
-    color:#ffffff
 
 
-
-    color:black
-
+.blog-header{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "Marck Script", cursive;
+  font-weight: normal;
+  margin-bottom: 30px;
 }
 
 .blog-container {
@@ -102,21 +100,24 @@
   }
   
   .blog-button {
+    margin-top: 50px;
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
     padding: 10px 20px;
-    text-align: center;
+    
     text-decoration: none;
+    font-weight: bold;
     display: inline-block;
-    font-size: 14px;
+    font-size: 15px;
     margin: 4px 2px;
     border-radius: 5px;
     cursor: pointer;
   
   }
   .blog-button:hover{
-    color: rgb(13, 13, 14);
+    
+    font-size:16px ;
   transition: 0.3s;
   }
 
