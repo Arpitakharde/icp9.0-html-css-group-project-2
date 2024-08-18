@@ -8,6 +8,7 @@
 height: 100vh;
 }
 .navbar{
+  width: 70px;
 color: white;
 width: 100%;
 background-color: rgb(29, 120, 53);
@@ -41,11 +42,9 @@ background-color: rgb(29, 120, 53);
 }
 .menu{
     color: white;
-    
     text-align: end;
 }
 .menu a{
-    
     color: white;
     padding:40px 20px;
     font-size: 20px;
@@ -60,7 +59,8 @@ background-color: rgb(29, 120, 53);
 
 .main-heading{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    text-align: center;
 }
 
 
@@ -68,30 +68,53 @@ background-color: rgb(29, 120, 53);
 
 
 .tagline{
-    
-    color: black;
+   color: black;
     width: 50%;
-    color: white;
+    
+   
+    
 }
+.tagline span{
+  font-size: 40px;
+  color: green;
+}
+
 .tagline h1{
-    color:rgb(80, 17, 67);;
+color:rgb(80, 17, 67);;
 text-align: start;
 margin-top: 100px;
 font-size: 50px;
 padding: 10px;
+font-weight: normal;
 font-family: "Marck Script", cursive;
 }
 
 .tagline p{
     color: black;
     font-size: 20px;
+    text-align: justify;
     font-weight: normal;
     padding: 10px;
 }
-.main-cantain{
-    margin-left: 40px;
-    
+.tagline-button{
+  
+  margin-top: 30px;
+  background-color:  #4CAF50;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
 }
+.main-cantain{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+
+}
+
 
 .main-cantain-heading{
     margin-top: 30px;
@@ -100,20 +123,22 @@ font-family: "Marck Script", cursive;
     font-weight: normal;
 
 }
+
 .main-cantain-para{
     font-size: 20px;
+    text-align: start;
+    text-align: justify;
 }
-.main-cantain-button{
-    margin-top: 20px;
-    padding: 8px 25px;
-    background-color:  rgb(80, 17, 67);
-    font-size: 15px;
-    color: white;
-    font-weight: bold;
-    border: none;
-}
+
+
+/*categroy img */
 .main-cantain-img{
-    display: inline;
+  
+  width: 100%;
+  display: inline;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 30px;
 }
 
 .side-img{
@@ -128,8 +153,10 @@ font-family: "Marck Script", cursive;
   border-radius: 60px;
   transition: 0.3s;
 }
+
+
 .secound-img{
-    border-radius: 50%;
+    border-radius: 30%;
     padding: 20px;
 }
 .img-heading{
