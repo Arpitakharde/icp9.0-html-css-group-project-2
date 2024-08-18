@@ -113,7 +113,13 @@
     margin: 4px 2px;
     border-radius: 5px;
     cursor: pointer;
+  
   }
+  .blog-button:hover{
+    color: rgb(13, 13, 14);
+  transition: 0.3s;
+  }
+
   .blog1-container {
     max-width: 800px;
     margin: 0 auto;
