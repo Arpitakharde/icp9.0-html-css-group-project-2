@@ -1,9 +1,16 @@
+.contact-heading{
+
+  padding: 10px;
+  text-align: center;
+  color:#c2f0c2;
+}
 
 *{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 .contact-h1{
 
   text-align: center;
@@ -33,28 +40,40 @@
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-image: url(./../img/form-img.avif);
  
+}
+
+.contact-info{
+  box-shadow:2px 2px 10px 2px   #ccc;
 }
 
 .contact-h2{
   text-align: center;
   padding:50px  50px;
+  color:#fff;
  
 }
 
-.form {
+.contact-form {
   width:600px;
   margin: 10px;
-  padding: 10px  20px;
+  padding: 20px  20px;
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(18, 18, 18, 0.1);
   display:flex;
+  background-image:  url(./../img/bac-img-form.avif);
   
 }
-.form-h2{
+
+.contact-form{
+  box-shadow:2px 2px 10px 2px   #ccc;
+}
+.contact-form-h2{
   text-align: left;
   padding:130px  20px ;
+  color:white;
 
 }
 
@@ -68,6 +87,19 @@ label{
   padding: 5px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
+  
+}
+
+.contact-name{
+  color:white;
+}
+
+.contact-email{
+  color:white;
+}
+
+.contact-msg{
+  color:white;
 }
 
 .in-email{
@@ -75,6 +107,7 @@ label{
   padding: 5px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
+  
 }
 
 .in-msg{
@@ -82,6 +115,7 @@ label{
   padding: 5px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
+
 }
 
 .submit{
@@ -99,7 +133,7 @@ label{
   background-color: #3e8e41;
 }
 
-.main{
+.contact-main{
   display: flex;
   justify-content: space-around;
   padding:10px 20px;
@@ -107,18 +141,20 @@ label{
   padding: 5px  10px;
 }
 
-.img{
+.contact-img{
   height:20px;
   width: 20px;
 }
 
-.map{
+.contact-map{
   width: 600px;
-  margin: 10px  20px;
+  margin: 10px  60px;
+  border :#a6a5a5 solid 2px;
+
 }
 
-.map:hover{
+.contact-map:hover{
   color:#ccc;
-  transition: 0.5s; 
-  box-shadow: 3px  3px   5px #cccccc;
+  transition: 0.3s; 
+  box-shadow: 3px  3px  10px  5px #bebebe;
 }
