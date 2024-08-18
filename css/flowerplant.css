@@ -35,6 +35,12 @@
     margin-top: 20px;
     color: rgb(31, 104, 31);
 }
+.flower-heading{
+  
+    font-size:40px ;
+    color: darkorchid;
+}
+
 .buy-now-btn{
     text-decoration: none;
     background-color:rgb(33, 119, 33);
@@ -75,8 +81,11 @@
     margin: 7px;
     margin-top: 17px;
     margin-bottom: 17px;
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    color: darkolivegreen;
+    font-family:"Cinzel",serif;
+    color: darkorchid;
+    font-size: 50px;
+    font-weight: normal;
+    letter-spacing: 0.3em;
 }
 .paragraph1{
     color: rgb(67, 84, 34);
@@ -85,3 +94,46 @@
     margin-bottom: 7px;
     font-size: 19px;
 }
+footer {
+    background-color: rgb(29, 120, 53);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-content h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .footer-content p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .socials {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .socials li {
+    display: inline-block;
+    margin:10px;
+  }
+  
+  .socials li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
