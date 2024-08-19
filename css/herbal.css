@@ -3,21 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-.herbal-card:hover{
-    transform: translateY(-5px);
-    transition: 0.5s;
-    box-shadow: 0 8px 16px black;
-}
-
-.heading{
-    color: white;
-    text-align: center;
-    font-size: 50px;
-    color: rgb(29, 120, 53);
-   
-}
-
 .heading2{
     text-align: center;
     font-size: 50px;
@@ -30,12 +15,6 @@
     
 }
 
-.herbal-heading{
-  
-    font-size:50px ;
-    color: darkorchid;
-}
-
 
 .herbal-paragraph{
     margin-top: 30px;
@@ -44,30 +23,33 @@
  padding: 20px 40px;
  font-size: 20px;
 }
+.herbal-heading{
+  
+    font-size:50px ;
+    color: darkorchid;
+}
+
 
 .herbal-card{
-    margin: 20px;
-    height: 420px;
+    margin-left: 48px;
+    height: 422px;
     width: 240px;
     background-color:white;
     border: 1px solid rgb(4, 34, 4);
-    box-shadow: 2px 3px 6px 3px #808080;
-    border-radius: 0px 0px 0px 19px;
-    
+    box-shadow: -5px 5px 10px 1px black;
+    border-radius: 0px 0px 0px 29px;
+    display:inline-block;
+    margin-top:30px;
+    margin-bottom: 30px;
 }
 
-.plant-container{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+.herbal-card:hover{
+    transform: translateY(-5px);
+    transition: 0.5s;
+    box-shadow: 0 8px 16px black;
 }
-
-
-.text{
-    font-family:"Marck Script",cursive;
-}
-
-.plant-img{
+  
+.herbal-img{
     width: 207px;
     height: 200px;
     margin: 10px;
@@ -75,37 +57,82 @@
     border-radius:12px;
     border: 2px solid black;
 }
-
 .text-centre1{
     text-align: center;
 }
-
-.rate{
-    color: grey;
+.herbal-name1{
+    color: rgb(10, 58, 10);
+    margin-bottom: 8px;
 }
-
-.decription{
+.decription1{
     margin:2px;
     margin-top: 10px;
-    color: rgb(31, 104, 31);
+    color: rgb(16, 103, 16);
+    font-weight: normal;
 }
-
-.buy-now-btn{
+.buy-now-btn1{
     text-decoration: none;
-    background-color:rgb(33, 119, 33);
+    background-color:rgb(44, 119, 44);
     color: white;
     height:40px;
     width: 200px;
-    margin-top: 15px;
+    margin-top: 13px;
     font-size: 20px;
     border: 0px solid rgb(16, 64, 16);
     cursor: pointer;
 }
-
-.buy-now-btn:hover{
+.buy-now-btn1:hover{
     border: 3px solid rgb(17, 72, 17);
     box-shadow: 0px 0px 10px 2px ;
     transition: 0.3s;
     border-radius: 5px;
 }
 
+
+.rate1{
+    color: grey;
+}
+
+footer {
+    background-color: rgb(29, 120, 53);
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .footer-content h3 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+  }
+  
+  .footer-content p {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .socials {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .socials li {
+    display: inline-block;
+    margin: 0 10px;
+  }
+  
+  .socials li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+  }
+  
