@@ -7,17 +7,16 @@
 
 /* Main Section Styling */
 
-.blog-header {
-    
-    padding: 10px;
-    text-align: center;
-
-    color:#ffffff
 
 
-
-    color:black
-
+.blog-header{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "Marck Script", cursive;
+  font-weight: normal;
+  margin-bottom: 30px;
+  background-color:rgb(82, 237, 82);
 }
 
 .blog-container {
@@ -25,6 +24,8 @@
     justify-content: center;
     align-items: center;
     height: 75vh;
+    box-shadow: 0 4px 8px 0 rgba(231, 226, 226, 0);
+    
   }
   
   .blog-card {
@@ -36,7 +37,9 @@
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(168, 49, 49, 0.1);
+    text-align: center;
+    box-shadow:0 0 5px 5px black;
+    overflow: hidden;
   }
   
   .blog-card img {
@@ -65,30 +68,21 @@
     color: white;
     text-decoration: none;
     border-radius: 5px;
+    text-align: center;
   }
   
   .blog-container {
     display: flex;
     justify-content: space-around;
+
   }
   
-  .blog-card {
-    width: 300px;
-    margin: 20px;
-    box-shadow: 0 4px 8px 0 rgba(231, 226, 226, 0);
-    border-radius: 5px;
-    overflow: hidden;
-  }
-  
-  .blog-card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
-  }
+ 
   
   .blogcard-body {
     padding: 15px;
     background-color: #fff;
+  
   }
   
   .blogcard-title {
@@ -101,26 +95,41 @@
     margin-bottom: 10px;
   }
   
-  .blog-button {
-    background-color: #4CAF50; /* Green */
+  .blog-button{
+    margin-top: 50px;
+    background-color: #4CAF50;
     border: none;
     color: white;
     padding: 10px 20px;
-    text-align: center;
+    
     text-decoration: none;
+    font-weight: bold;
     display: inline-block;
-    font-size: 14px;
+    font-size: 15px;
     margin: 4px 2px;
     border-radius: 5px;
     cursor: pointer;
+  
   }
+  .blog-button:hover{
+    
+    font-size:16px ;
+  transition: 0.3s;
+  }
+
   .blog1-container {
     max-width: 800px;
     margin: 0 auto;
     padding: 20px;
     background-color: #fff;
     border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 2px 2px black;
+   
+
+}
+.blog1-container h1{
+  color: rgb(29, 120, 53);
+ 
 }
 
 
