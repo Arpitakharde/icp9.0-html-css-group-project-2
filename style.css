@@ -119,6 +119,16 @@ font-family: "Marck Script", cursive;
   cursor: pointer;
 
 }
+.go-top{
+  position:fixed;
+  bottom:0;
+  right: 0;
+  height: 45px;
+  margin: 10px;
+  
+
+ }
+
 
 /* header section khatam huaaa*/
 
@@ -127,7 +137,7 @@ font-family: "Marck Script", cursive;
   justify-content: space-evenly;
   text-align: center;
  }
-
+ 
 
 .cantain-heading{
     margin-top: 50px;
