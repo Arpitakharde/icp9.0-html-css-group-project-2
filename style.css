@@ -3,10 +3,12 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 .home-header{
  width: 100%;
 height: 100vh;
 }
+
 .navbar{
   width: 70px;
 color: white;
@@ -17,16 +19,25 @@ background-color: rgb(29, 120, 53);
  align-items: center;
    
 }
+
+.icon{
+  margin-left: 20px;
+}
 .icon i{
+  margin-left: 10px;
     font-size: 23px;
-    padding: 0px 10px;
+    padding:  7px 5px;
     cursor: pointer;
     color: white;
 }
+
 .icon i:hover{
+  border-radius: 5px;
+  background-color: white;
   color: rgb(75, 178, 75);
-  transition: 0.3s;
+  transition: 0.5s;
 }
+
 .heading{
     color: white;
     text-align: center;
@@ -34,6 +45,7 @@ background-color: rgb(29, 120, 53);
     color: rgb(29, 120, 53);
    
 }
+
 .Vrindavan{
     color: white;
     font-size: 50px;
@@ -42,99 +54,211 @@ background-color: rgb(29, 120, 53);
 }
 .menu{
     color: white;
-    
     text-align: end;
 }
+
 .menu a{
-    
     color: white;
-    padding:40px 20px;
+    padding: 10px 20px;
     font-size: 20px;
     text-decoration:  none;
     cursor: pointer;
     font-weight: bold;
 }
+
 .menu a:hover{
-    color: rgb(79, 203, 79);
-    transition: 0.3s;
+  border-radius: 25px;
+  background-color: white;
+  color: rgb(79, 203, 79);
+    transition: 0.5s;
 }
+
+/* header section start */
 
 .main-heading{
     display: flex;
-    justify-content: space-between;
-}
-
-
-
-
-
-.tagline{
+    justify-content: space-evenly;
     
-    color: black;
-    width: 50%;
-    color: white;
 }
+.tagline{
+   color: black;
+    width: 50%;
+    margin-right: 20px;
+  }
+
+.tagline span{
+  font-size: 40px;
+  color: green;
+}
+
 .tagline h1{
-    color:rgb(80, 17, 67);;
+color: rgb(240, 94, 41);
 text-align: start;
 margin-top: 100px;
 font-size: 50px;
 padding: 10px;
+font-weight: normal;
 font-family: "Marck Script", cursive;
 }
 
 .tagline p{
     color: black;
     font-size: 20px;
+    text-align: justify;
     font-weight: normal;
     padding: 10px;
 }
-.main-cantain{
-    margin-left: 40px;
-    
-}
+.tagline-button{
+  margin-top: 30px;
+  background-color:  #4CAF50;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 
-.main-cantain-heading{
-    margin-top: 30px;
+}
+.go-top{
+  position:fixed;
+  bottom:0;
+  right: 0;
+  height: 45px;
+  margin: 10px;
+ }
+
+
+/* header section khatam huaaa*/
+
+.main-cantain{
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+ }
+ 
+
+.cantain-heading{
+    margin-top: 50px;
     font-size: 40px;
     font-family: "Marck Script", cursive;
     font-weight: normal;
 
 }
+
 .main-cantain-para{
     font-size: 20px;
-}
-.main-cantain-button{
-    margin-top: 20px;
-    padding: 8px 25px;
-    background-color:  rgb(80, 17, 67);
-    font-size: 15px;
-    color: white;
-    font-weight: bold;
-    border: none;
-}
-.main-cantain-img{
-    display: inline;
+    text-align: start;
+    text-align: justify;
 }
 
+
+/*categroy img */
+.main-cantain-img{
+  
+  width: 100%;
+  display: inline;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-left: 30px;
+}
+
+
+
+
+
 .side-img{
-    margin-top: 30px;
-    padding: 20px;
+   padding: 20px;
     height: 400px;
      width: 700px;
      border-radius: 20px;
+     margin-bottom: 30px;
      
 }
 .side-img:hover{
   border-radius: 60px;
   transition: 0.3s;
 }
-.secound-img{
-    border-radius: 50%;
-    padding: 20px;
-}
+
+
+
+
+
+
 .img-heading{
    margin-top: 100px;
+}
+
+.categroy-cantainer{
+  
+display: flex;
+flex-wrap: wrap;
+padding: 80px;
+margin-left: 160px;
+}
+
+.secound-img{
+  margin-left: 30px;
+  border-radius: 10px;
+  padding: 10px;
+  
+}
+
+.secound-img:hover{
+  transform: translateY(-5px);
+  transition: 0.5s;
+  
+  
+
+}
+ 
+
+.img-name{
+  padding: 10px;
+  margin-bottom: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  
+}
+
+.side-img{
+  margin-top: 30px;
+  margin-left: 40px;
+  
+  height: 400px;
+   width: 600px;
+   border-radius: 20px;
+   
+   
+   
+}
+
+
+
+
+/* home feature*/
+.home-feature{
+  
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding: 30px 0px;
+  margin: 0px 100px;
+ 
+}
+.home-feature-heading{
+  font-size: 40px;
+  font-weight: bold;
+ margin-top: 40px;
+ color: green;
+}
+.feature1{
+  padding: 20px;
+  width: 170px;
+  height: 170px;
+  background-color:rgba(232, 238, 232, 0.66);
+  border-radius: 10px;
+  
+  
 }
 
 footer {
@@ -180,7 +304,14 @@ footer {
   .footer-bottom p {
     margin: 0;
   }
-  
+  /*box shahdo used for webside*/
+  .box-shadow{
+    box-shadow: 0 0 10px rgba(18, 18, 18, 0.1);
+  }
+
+  .box-shadow1{
+     box-shadow:2px 2px 10px 2px   #ccc;
+  }
 
 
 
