@@ -92,9 +92,11 @@
 }
 .contact-form-h2{
   text-align: left;
-
   padding:120px 3px;
-  
+}
+
+.contact-form-h2:hover{
+  color:#3e8e41;
 
 }
 
