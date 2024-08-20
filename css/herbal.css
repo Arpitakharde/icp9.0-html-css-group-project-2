@@ -16,21 +16,21 @@
 }
 
 
-.herbal-paragraph{
+.fruit-paragraph{
     margin-top: 30px;
     text-align: justify;
     line-height: 1.4em;
  padding: 20px 40px;
  font-size: 20px;
 }
-.herbal-heading{
+.fruit-heading{
   
     font-size:50px ;
     color: darkorchid;
 }
 
 
-.herbal-card{
+.Fruit-card{
     margin-left: 48px;
     height: 422px;
     width: 240px;
@@ -43,13 +43,13 @@
     margin-bottom: 30px;
 }
 
-.herbal-card:hover{
+.Fruit-card:hover{
     transform: translateY(-5px);
     transition: 0.5s;
     box-shadow: 0 8px 16px black;
 }
   
-.herbal-img{
+.Fruit-img{
     width: 207px;
     height: 200px;
     margin: 10px;
@@ -60,7 +60,7 @@
 .text-centre1{
     text-align: center;
 }
-.herbal-name1{
+.Fruit-name1{
     color: rgb(10, 58, 10);
     margin-bottom: 8px;
 }
@@ -70,23 +70,25 @@
     color: rgb(16, 103, 16);
     font-weight: normal;
 }
+
 .buy-now-btn1{
-    text-decoration: none;
-    background-color:rgb(44, 119, 44);
-    color: white;
-    height:40px;
-    width: 200px;
-    margin-top: 13px;
-    font-size: 20px;
-    border: 0px solid rgb(16, 64, 16);
-    cursor: pointer;
+  text-decoration: none;
+  background-color:rgb(220, 86, 86);
+  color: white;
+  height:40px;
+  width: 200px;
+  margin-top: 13px;
+  font-size: 20px;
+  border: 0px solid rgb(16, 64, 16);
+  cursor: pointer;
 }
 .buy-now-btn1:hover{
-    border: 3px solid rgb(17, 72, 17);
-    box-shadow: 0px 0px 10px 2px ;
-    transition: 0.3s;
-    border-radius: 5px;
+  border: 3px solid rgb(17, 72, 17);
+  box-shadow: 0px 0px 10px 2px ;
+  transition: 0.3s;
+  border-radius: 5px;
 }
+
 
 
 .rate1{
