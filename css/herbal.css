@@ -16,21 +16,21 @@
 }
 
 
-.herbal-paragraph{
+.fruit-paragraph{
     margin-top: 30px;
     text-align: justify;
     line-height: 1.4em;
  padding: 20px 40px;
  font-size: 20px;
 }
-.herbal-heading{
+.fruit-heading{
   
     font-size:50px ;
     color: darkorchid;
 }
 
 
-.herbal-card{
+.Fruit-card{
     margin-left: 48px;
     height: 422px;
     width: 240px;
@@ -43,13 +43,13 @@
     margin-bottom: 30px;
 }
 
-.herbal-card:hover{
+.Fruit-card:hover{
     transform: translateY(-5px);
     transition: 0.5s;
     box-shadow: 0 8px 16px black;
 }
   
-.herbal-img{
+.Fruit-img{
     width: 207px;
     height: 200px;
     margin: 10px;
@@ -60,7 +60,7 @@
 .text-centre1{
     text-align: center;
 }
-.herbal-name1{
+.Fruit-name1{
     color: rgb(10, 58, 10);
     margin-bottom: 8px;
 }
