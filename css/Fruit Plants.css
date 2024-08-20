@@ -33,7 +33,7 @@
     height: 422px;
     width: 240px;
     background-color:white;
-    border: 1px solid rgb(4, 34, 4);
+    border: 2px double rgb(222, 214, 214);
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
     border-radius: 0px 0px 0px 29px;
     display:inline-block;
