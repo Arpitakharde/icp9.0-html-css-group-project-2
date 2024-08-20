@@ -70,25 +70,23 @@
     color: rgb(16, 103, 16);
     font-weight: normal;
 }
-
 .buy-now-btn1{
-  text-decoration: none;
-  background-color:rgb(220, 86, 86);
-  color: white;
-  height:40px;
-  width: 200px;
-  margin-top: 13px;
-  font-size: 20px;
-  border: 0px solid rgb(16, 64, 16);
-  cursor: pointer;
+    text-decoration: none;
+    background-color:rgb(44, 119, 44);
+    color: white;
+    height:40px;
+    width: 200px;
+    margin-top: 13px;
+    font-size: 20px;
+    border: 0px solid rgb(16, 64, 16);
+    cursor: pointer;
 }
 .buy-now-btn1:hover{
-  border: 3px solid rgb(17, 72, 17);
-  box-shadow: 0px 0px 10px 2px ;
-  transition: 0.3s;
-  border-radius: 5px;
+    border: 3px solid rgb(17, 72, 17);
+    box-shadow: 0px 0px 10px 2px ;
+    transition: 0.3s;
+    border-radius: 5px;
 }
-
 
 
 .rate1{
