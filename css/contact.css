@@ -127,6 +127,9 @@ label{
   cursor:pointer;
 }
 
+.in-email:hover{
+  border:1.5px solid #99f79c;
+}
 
 
 .in-msg{
@@ -135,6 +138,10 @@ label{
   margin-bottom: 20px;
   border: 1px solid #ccc;
   cursor:pointer;
+}
+
+.in-msg:hover{
+  border:1.5px solid #99f79c;
 }
 
 .submit{
