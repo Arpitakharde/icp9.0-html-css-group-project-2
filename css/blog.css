@@ -188,7 +188,35 @@ display: inline;
   height:auto;
 }
 
+section {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 800px;
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
+section h2 {
+  margin-bottom: 10px;
+}
+
+.project {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-right: 20px;
+}
+
+.project p {
+  flex: 1;
+}
 
 
   .blogvideo-container {
