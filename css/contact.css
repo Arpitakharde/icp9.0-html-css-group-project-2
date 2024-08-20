@@ -91,7 +91,7 @@
   box-shadow:2px 2px 10px 2px   #ccc;
 }
 .contact-form-h2{
-  padding:120px 10px;
+  padding:120px 20px;
 
 }
 
@@ -161,16 +161,15 @@ label{
 .contact-map{
   width: 1100px;
   margin: 30px  60px;
-  border :#a6a5a5 solid 2px;
-
+  box-shadow: 0 0 10px rgba(18, 18, 18, 0.1);
 }
+
+.contact-map{
+  box-shadow:2px 2px 10px 2px   #ccc;
+}
+
 
 .contact-map1{
   width: 1100px;
 }
 
-.contact-map:hover{
-  color:#ccc;
-  transition: 0.3s; 
-  box-shadow: 3px  3px  10px  5px #bebebe;
-}
