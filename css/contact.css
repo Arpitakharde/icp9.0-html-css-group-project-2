@@ -34,19 +34,29 @@
 }
 
 .contact-info {
-  width: 600px;
-  margin: 20px;
-  padding: 20px  10px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
  
+  width: 400px;
+    margin: 20px;
+    padding: 30px  30px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+
+  
 }
 
 .contact-info{
   box-shadow:2px 2px 10px 2px   #ccc;
 }
+
+
+
+
+
+
+ 
+
 
 .contact-h2{
   text-align: center;
@@ -128,7 +138,7 @@ label{
   padding: 5px  10px;
 }
 
-.contact-img{
+.contact-icon{
   height:20px;
   width: 20px;
 }
