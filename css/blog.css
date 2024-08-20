@@ -7,8 +7,6 @@
 
 /* Main Section Styling */
 
-
-
 .blog-header{
   text-align: center;
   margin-top: 50px;
@@ -72,7 +70,7 @@
     color: white;
     text-decoration: none;
     border-radius: 5px;
-    text-align: center;
+    text-align: justify;
   }
   
   .blog-container {
@@ -131,10 +129,66 @@
    
 
 }
-.blog1-container h1{
-  color: rgb(29, 120, 53);
- 
+
+.blog-content {
+display: inline;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f9f9f9;
 }
+
+
+.blogcontent-box {
+  flex: 1 1 calc(25% - 20px);
+  margin: 10px;
+  padding: 20px;
+  background-color: #fff;
+  text-align: center;
+  font-size: 2rem;
+}
+
+.blogcontent-box h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.blogcontent-box p {
+  font-size: 1rem;
+  color: #666;
+}
+
+.seasonal-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.seasonal-article {
+  flex: 1 1 calc(50% - 20px); /* Two articles per row */
+  box-sizing: border-box;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.seasonal-article h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.seasonal-article p {
+  font-size: 1rem;
+  color: #333;
+}
+.seasonal-article img{
+  width: 400px;
+  height:auto;
+}
+
+
 
 
   .blogvideo-container {
