@@ -218,6 +218,33 @@ section h2 {
   flex: 1;
 }
 
+.plant-of-the-month h2 {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.plant-of-the-month img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto 1em;
+}
+
+.plant-info {
+  padding: 0 1em;
+}
+
+.plant-info h3 {
+  border-bottom: 2px solid #4CAF50;
+  padding-bottom: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.plant-info ul {
+  list-style-type: disc;
+  padding-left: 2em;
+}
+
 
   .blogvideo-container {
     position: relative;
