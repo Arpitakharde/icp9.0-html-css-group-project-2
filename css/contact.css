@@ -112,6 +112,7 @@ label{
   margin-bottom: 20px;
   border: 1px solid #ccc;
   cursor:pointer;
+  font-size: 10px;
 }
 
 .in-name:hover{
@@ -125,6 +126,7 @@ label{
   margin-bottom: 20px;
   border: 1px solid #ccc;
   cursor:pointer;
+  font-size: 10px;
 }
 
 .in-email:hover{
@@ -138,6 +140,7 @@ label{
   margin-bottom: 20px;
   border: 1px solid #ccc;
   cursor:pointer;
+  font-size: 10px;
 }
 
 .in-msg:hover{
