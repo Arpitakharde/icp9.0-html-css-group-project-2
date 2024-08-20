@@ -92,6 +92,7 @@
 }
 .contact-form-h2{
   padding:120px 10px;
+  text-align: center;
 
 }
 
@@ -110,7 +111,11 @@ label{
   padding: 5px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
-  
+  cursor:pointer;
+}
+
+.in-name:hover{
+  border:1.5px solid #99f79c;
 }
 
 
@@ -119,15 +124,17 @@ label{
   padding: 5px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
-  
+  cursor:pointer;
 }
+
+
 
 .in-msg{
   width: 400%;
   padding: 5px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
-
+  cursor:pointer;
 }
 
 .submit{
