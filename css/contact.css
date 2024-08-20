@@ -40,7 +40,7 @@
   border: 1px solid #ddd;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  background-image: url(./../img/form-img.avif);
+
  
 }
 
@@ -51,8 +51,6 @@
 .contact-h2{
   text-align: center;
   padding:50px  50px;
-  color:#fff;
- 
 }
 
 .contact-form {
@@ -63,7 +61,6 @@
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(18, 18, 18, 0.1);
   display:flex;
-  background-image:  url(./../img/bac-img-form.avif);
   
 }
 
@@ -73,7 +70,7 @@
 .contact-form-h2{
   text-align: left;
   padding:130px  20px ;
-  color:white;
+  
 
 }
 
@@ -90,17 +87,6 @@ label{
   
 }
 
-.contact-name{
-  color:white;
-}
-
-.contact-email{
-  color:white;
-}
-
-.contact-msg{
-  color:white;
-}
 
 .in-email{
   width: 100%;
@@ -147,10 +133,14 @@ label{
 }
 
 .contact-map{
-  width: 600px;
-  margin: 10px  60px;
+  width: 1100px;
+  margin: 30px  60px;
   border :#a6a5a5 solid 2px;
 
+}
+
+.contact-map1{
+  width: 1100px;
 }
 
 .contact-map:hover{
