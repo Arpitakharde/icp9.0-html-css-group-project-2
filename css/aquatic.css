@@ -1,111 +1,140 @@
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-.aquatic-card{
-    margin: 20px;
-    height: 420px;
-    width: 240px;
-    background-color:white;
-    border: 1px solid rgb(4, 34, 4);
-    box-shadow: 2px 3px 6px 3px #808080;
-    border-radius: 0px 0px 0px 19px;
-    
-}
-
-.aquatic-card:hover{
-    transform: translateY(-5px);
-    transition: 0.5s;
-    box-shadow: 0 8px 16px black;
-}
-
-.heading{
-    color: white;
-    text-align: center;
-    font-size: 50px;
-    color: rgb(29, 120, 53);
-   
-}
-
 .heading2{
-    text-align: center;
-    font-size: 50px;
-    font-weight: normal;
-    margin-top: 30px;
-    font-family: "Cinzel", serif;
-    letter-spacing: 0.3em;
-    color: darkorchid;
-   
-    
-}
-
-.aquatic-heading{
+  text-align: center;
+  font-size: 50px;
+  font-weight: normal;
+  margin-top: 30px;
+  font-family: "Cinzel", serif;
+  letter-spacing: 0.3em;
+  color: darkorchid;
+ 
   
-    font-size:50px ;
-    color: darkorchid;
 }
 
 
-.aquatic-paragraph{
-    margin-top: 30px;
-    text-align: justify;
-    line-height: 1.4em;
- padding: 20px 40px;
- font-size: 20px;
+.fruit-paragraph{
+  margin-top: 30px;
+  text-align: justify;
+  line-height: 1.4em;
+padding: 20px 40px;
+font-size: 20px;
+}
+.fruit-heading{
+
+  font-size:50px ;
+  color: darkorchid;
 }
 
-.plant-container{
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+
+.Fruit-card{
+  margin-left: 48px;
+  height: 422px;
+  width: 240px;
+  background-color:white;
+  border: 1px solid rgb(4, 34, 4);
+  box-shadow: -5px 5px 10px 1px black;
+  border-radius: 0px 0px 0px 29px;
+  display:inline-block;
+  margin-top:30px;
+  margin-bottom: 30px;
 }
 
-
-.text{
-    font-family:"Marck Script",cursive;
+.Fruit-card:hover{
+  transform: translateY(-5px);
+  transition: 0.5s;
+  box-shadow: 0 8px 16px black;
 }
 
-.plant-img{
-    width: 207px;
-    height: 200px;
-    margin: 10px;
-    margin-left: 16px;
-    border-radius:12px;
-    border: 2px solid black;
+.Fruit-img{
+  width: 207px;
+  height: 200px;
+  margin: 10px;
+  margin-left: 16px;
+  border-radius:12px;
+  border: 2px solid black;
 }
-
 .text-centre1{
-    text-align: center;
+  text-align: center;
+}
+.Fruit-name1{
+  color: rgb(10, 58, 10);
+  margin-bottom: 8px;
+}
+.decription1{
+  margin:2px;
+  margin-top: 10px;
+  color: rgb(16, 103, 16);
+  font-weight: normal;
 }
 
-.rate{
-    color: grey;
+.buy-now-btn1{
+text-decoration: none;
+background-color:rgb(220, 86, 86);
+color: white;
+height:40px;
+width: 200px;
+margin-top: 13px;
+font-size: 20px;
+border: 0px solid rgb(16, 64, 16);
+cursor: pointer;
+}
+.buy-now-btn1:hover{
+border: 3px solid rgb(17, 72, 17);
+box-shadow: 0px 0px 10px 2px ;
+transition: 0.3s;
+border-radius: 5px;
 }
 
-.decription{
-    margin:2px;
-    margin-top: 10px;
-    color: rgb(31, 104, 31);
+
+
+.rate1{
+  color: grey;
 }
 
-.buy-now-btn{
-    text-decoration: none;
-    background-color:rgb(33, 119, 33);
-    color: white;
-    height:40px;
-    width: 200px;
-    margin-top: 15px;
-    font-size: 20px;
-    border: 0px solid rgb(16, 64, 16);
-    cursor: pointer;
+footer {
+  background-color: rgb(29, 120, 53);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
 }
 
-.buy-now-btn:hover{
-    border: 3px solid rgb(17, 72, 17);
-    box-shadow: 0px 0px 10px 2px ;
-    transition: 0.3s;
-    border-radius: 5px;
+.footer-content h3 {
+  margin: 0;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.footer-content p {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.socials {
+  list-style: none;
+  padding: 0;
+}
+
+.socials li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.socials li a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.footer-bottom p {
+  margin: 0;
 }
 
