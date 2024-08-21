@@ -277,25 +277,3 @@ label{
   }
 }
 
- Desktop devices (min-width: 769px) 
-@media only screen and (min-width: 769px) {
-  .contact-container {
-    flex-direction: row;
-  }
-  .contact-image {
-    width: 30%;
-    margin: 30px;
-  }
-  .contact-info {
-    width: 30%;
-    margin: 30px;
-  }
-  .contact-form {
-    width: 60%;
-    margin: 30px;
-  }
-  .contact-map {
-    width: 60%;
-    margin: 30px;
-  }
-} 
