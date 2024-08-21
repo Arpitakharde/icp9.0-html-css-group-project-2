@@ -19,7 +19,7 @@
 
 .blog-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 75vh;
     box-shadow: 0 4px 8px 0 rgba(231, 226, 226, 0);
@@ -73,11 +73,6 @@
     text-align: justify;
   }
   
-  .blog-container {
-    display: flex;
-    justify-content: space-around;
-
-  }
   
  
   
@@ -97,22 +92,7 @@
     margin-bottom: 10px;
   }
   
-  .blog-button{
-    margin-top: 50px;
-    background-color: #4CAF50;
-    border: none;
-    color: white;
-    padding: 10px 20px;
-    
-    text-decoration: none;
-    font-weight: bold;
-    display: inline-block;
-    font-size: 15px;
-    margin: 4px 2px;
-    border-radius: 5px;
-    cursor: pointer;
-  
-  }
+
   .blog-button:hover{
     
     font-size:16px ;
@@ -154,7 +134,7 @@ display: inline;
 }
 
 .blogcontent-box p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #666;
 }
 
@@ -180,8 +160,9 @@ display: inline;
 }
 
 .seasonal-article p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #333;
+  margin : 10px 0 20px 0;
 }
 .seasonal-article img{
   width: 400px;
@@ -216,6 +197,20 @@ section h2 {
 
 .project p {
   flex: 1;
+ margin-top: 5px;
+ font-size: 17px;
+}
+.project a {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 10px;
+  background-color: #c93015;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: justify;
+  margin-bottom: 0;
+  position: relative;
 }
 
 .plant-of-the-month h2 {
