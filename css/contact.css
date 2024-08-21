@@ -190,3 +190,72 @@ label{
   width: 1100px;
 }
 
+
+
+/*@media only screen and (max-width: 480px) {
+  .contact-container {
+    flex-direction: column;
+  }
+  .contact-image {
+    width: 100%;
+    margin: 10px;
+  }
+  .contact-info {
+    width: 100%;
+    margin: 10px;
+  }
+  .contact-form {
+    width: 100%;
+    margin: 10px;
+  }
+  .contact-map {
+    width: 100%;
+    margin: 10px;
+  }
+}*/
+
+/* Tablet devices (min-width: 481px and max-width: 768px) 
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  .contact-container {
+    flex-direction: row;
+  }
+  .contact-image {
+    width: 40%;
+    margin: 20px;
+  }
+  .contact-info {
+    width: 40%;
+    margin: 20px;
+  }
+  .contact-form {
+    width: 80%;
+    margin: 20px;
+  }
+  .contact-map {
+    width: 80%;
+    margin: 20px;
+  }
+}*/
+
+/* Desktop devices (min-width: 769px) 
+@media only screen and (min-width: 769px) {
+  .contact-container {
+    flex-direction: row;
+  }
+  .contact-image {
+    width: 30%;
+    margin: 30px;
+  }
+  .contact-info {
+    width: 30%;
+    margin: 30px;
+  }
+  .contact-form {
+    width: 60%;
+    margin: 30px;
+  }
+  .contact-map {
+    width: 60%;
+    margin: 30px;
+  }
+} */
