@@ -9,8 +9,7 @@ body{
 .about-header{
     text-align:center;
     font-size:40px;
-    font-weight: normal
-  font-family: "Cinzel", serif;;
+    font-weight: normal;
     
 }
 .head{
@@ -130,4 +129,61 @@ footer{
     margin:30px 0;
     color:black;
 }
+
+.team-section .container1 .team-card{
+    width:100%;
+    display:grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap:40px;
+    margin-top: 50px;
+}
+
+.team-section .container1 .team-card .card{
+    width:100%;
+    background-color:#fff;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    padding:20px;
+    cursor:pointer;
+    box-shadow:0 0 3px 3px black;
+
+}
+
+.team-section .container1 .team-card .card:hover{
+    background-color: rgb(215, 212, 212);
+    transition:0.3s;
+
+}
+
+.team-section .container1 .team-card .card .image-section img{
+    height:150px;
+    width:150px;
+    border-radius:50%;
+    border:6px solid #fff;
+}
+
+.team-section .container1 .team-card .card .content{
+    width:100%;
+    text-align:center;
+}
+
+.team-section .container1 .team-card .card .content h3{
+   font-size:27px;
+   margin-top:10px;letter-spacing: 1.5px;
+   color:rgb(134, 134, 245);
+}
+
+.team-section .container1 .team-card .card .content h4{
+    font-size:17px;
+    margin-top:10px;letter-spacing: 1.5px;
+    color:rgb(235, 138, 138);
+ }
+
+ .team-section .container1 .team-card .card .content p{
+    font-size:15px;
+    margin:16px 0px;
+    color:black
+ }
 
