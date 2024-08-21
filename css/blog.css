@@ -4,6 +4,86 @@
     box-sizing: border-box;
 }
 
+.blogs-container {
+  width: 80%;
+  margin: 50px auto 50px;
+ 
+ 
+  
+}
+.blogs-container h1{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "Marck Script", cursive;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.blog-entry {
+  padding: 30px;
+  margin-bottom: 20px;
+}
+
+.blogs-image {
+  float: left;
+  margin-right: 40px;
+  margin-left: 0;
+  overflow: hidden;
+
+}
+
+.blogs-info {
+  margin-top: 20px;
+}
+
+.blogs-info p {
+  margin-bottom: 10px;
+}
+
+.button1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:#c93015;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  background-color: #3e8e41;
+}
+
+.social-medias {
+  margin-top: 10px;
+}
+
+.social-medias p {
+  margin-bottom: 5px;
+}
+
+.social-medias p span {
+  font-weight: bold;
+}
+
+
+.social-medias p a:hover {
+  text-decoration: underline;
+}
+
+.dots {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+
 
 /* Main Section Styling */
 
@@ -19,7 +99,7 @@
 
 .blog-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 75vh;
     box-shadow: 0 4px 8px 0 rgba(231, 226, 226, 0);
@@ -72,14 +152,7 @@
     border-radius: 5px;
     text-align: justify;
   }
-  
-  .blog-container {
-    display: flex;
-    justify-content: space-around;
 
-  }
-  
- 
   
   .blogcard-body {
     padding: 15px;
@@ -101,7 +174,7 @@
     margin-top: 50px;
     background-color: #4CAF50;
     border: none;
-    color: white;
+    color: #ffffff;
     padding: 10px 20px;
     
     text-decoration: none;
@@ -113,10 +186,12 @@
     cursor: pointer;
   
   }
+
   .blog-button:hover{
     
     font-size:16px ;
   transition: 0.3s;
+  background-color: #3e8e41;
   }
 
   .blog1-container {
@@ -154,7 +229,7 @@ display: inline;
 }
 
 .blogcontent-box p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #666;
 }
 
@@ -176,12 +251,20 @@ display: inline;
 
 .seasonal-article h3 {
   font-size: 1.5rem;
-  margin-bottom: 10px;
+  
+  font-size: 30px;
 }
 
 .seasonal-article p {
-  font-size: 1rem;
+
+  font-size: 17px;
   color: #333;
+  text-align: justify;
+  margin-bottom: 10px;
+  padding: 30px;
+  font-size: 1.2rem;
+  color: #333;
+  margin : 10px 0 20px 0;
 }
 .seasonal-article img{
   width: 400px;
@@ -216,7 +299,24 @@ section h2 {
 
 .project p {
   flex: 1;
+ margin-top: 5px;
+ font-size: 17px;
 }
+.project a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:#c93015;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
 
 .plant-of-the-month h2 {
   text-align: center;
