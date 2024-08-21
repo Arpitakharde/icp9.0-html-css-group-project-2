@@ -4,6 +4,89 @@
     box-sizing: border-box;
 }
 
+.blogs-container {
+  width: 80%;
+  margin: 50px auto 50px;
+  border-radius: 10px;
+ 
+  
+}
+.blogs-container h1{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "Marck Script", cursive;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.blog-entry {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.blogs-image {
+  float: left;
+  margin-right: 30px;
+
+}
+
+.blogs-info {
+  margin-top: 20px;
+}
+
+.blogs-info p {
+  margin-bottom: 10px;
+}
+
+.button1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:#c93015;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  background-color: #3e8e41;
+}
+
+.social-medias {
+  margin-top: 10px;
+}
+
+.social-medias p {
+  margin-bottom: 5px;
+}
+
+.social-medias p span {
+  font-weight: bold;
+}
+
+.social-medias p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-medias p a:hover {
+  text-decoration: underline;
+}
+
+.dots {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+
 
 /* Main Section Styling */
 
@@ -97,6 +180,7 @@
     
     font-size:16px ;
   transition: 0.3s;
+  background-color: #3e8e41;
   }
 
   .blog1-container {
@@ -203,15 +287,18 @@ section h2 {
 .project a {
   display: inline-block;
   padding: 10px 20px;
-  margin-top: 10px;
-  background-color: #c93015;
+  background-color:#c93015;
   color: white;
+  text-align: center;
   text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
   border-radius: 5px;
-  text-align: justify;
-  margin-bottom: 0;
-  position: relative;
+  margin-bottom: 10px;
 }
+
 
 .plant-of-the-month h2 {
   text-align: center;
