@@ -25,6 +25,10 @@
 
 - `Product Details` : Detailed information about each plant, including care instructions.
 
+### Provide Facility of account creation and loging so you get extra information through email and messages:
+![Home page](./img/Screenshot%20(30).png)
+
+
 - `Shopping Cart` : Add products to the cart and view the total cost.
 
 -   `Order Management` : Users can view their order history and track current orders.
@@ -33,10 +37,8 @@
 
 - `Responsive Design` : Mobile-friendly interface for accessibility on all devices.
 
-
-## Tech stack:
-- `Frontend` : HTML, CSS.
-
+## Provide Facility To Direct Contact:
+![Home page](./img/blog/Screenshot%20(28).png)
 
 ## Uses:
 - `Home Page` : Displays featured products and categories.
@@ -50,8 +52,15 @@
 - `Checkout` : Enter payment details to complete the purchase.
 
 - `Profile` : View and manage your account details and order history.
+ 
+ ## Real time view of plants:
+ ![Home page](./img/aquaticplant/Screenshot%20(29).png)
 
 ---
+
+## Tech stack:
+- `Frontend` : HTML, CSS.
+
 
 ## Contributing
 
