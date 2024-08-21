@@ -134,25 +134,25 @@ footer{
     width:100%;
     display:grid;
     grid-template-columns: repeat(3 , 1fr);
-    grid-gap:5px;
+    grid-gap:40px;
     margin-top: 50px;
-
 }
 
 .team-section .container1 .team-card .card{
     width:100%;
-    background-color:#fafafa;
+    background-color:#fff;
     display:flex;
     flex-direction:column;
     justify-content:center;
     align-items: center;
     padding:20px;
     cursor:pointer;
+    box-shadow:0 0 3px 3px black;
 
 }
 
 .team-section .container1 .team-card .card:hover{
-    background-color: rgb(225, 217, 217);
+    background-color: rgb(215, 212, 212);
     transition:0.3s;
 
 }
