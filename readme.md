@@ -14,8 +14,6 @@
 ---
 ## Features:
 
-###  Responsive Interface:
-![Home page](./img/Screenshot%20(27).png)
 
 - `User Authentication` : Secure login and registration for users.
 
