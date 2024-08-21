@@ -12,16 +12,8 @@
 }
 
 .contact-h1{
-
-  text-align: center;
-  padding: 10px;
-    text-align: center;
-    font-size: 45px;
-    font-weight: normal;
-    font-family: "Marck Script", cursive;
-
-  font-size: 30px;
-  color:#3e8e41;
+  font-size: 40px;
+  font-weight: normal;
 
 }
 
@@ -42,14 +34,11 @@
   width: 500px;
   margin: 20px 20px;
   padding: 30px  0px;
-  border: 1px solid #ddd;
   border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
 }
 
-.contact-image{
-  box-shadow:2px 2px 10px 2px   #ccc;
-}
+
 
 .contact-info {
  
@@ -92,6 +81,7 @@
 }
 .contact-form-h2{
   padding:120px 10px;
+  text-align: center;
 
 }
 
@@ -110,7 +100,12 @@ label{
   padding: 5px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
-  
+  cursor:pointer;
+  font-size: 10px;
+}
+
+.in-name:hover{
+  border:1.5px solid #99f79c;
 }
 
 
@@ -119,15 +114,26 @@ label{
   padding: 5px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
-  
+  cursor:pointer;
+  font-size: 10px;
 }
+
+.in-email:hover{
+  border:1.5px solid #99f79c;
+}
+
 
 .in-msg{
   width: 400%;
   padding: 5px;
   margin-bottom: 20px;
   border: 1px solid #ccc;
+  cursor:pointer;
+  font-size: 10px;
+}
 
+.in-msg:hover{
+  border:1.5px solid #99f79c;
 }
 
 .submit{
