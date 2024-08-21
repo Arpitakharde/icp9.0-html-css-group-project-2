@@ -181,7 +181,7 @@ label{
 
 
 
-/*@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) {
   .contact-container {
     flex-direction: column;
   }
@@ -196,12 +196,28 @@ label{
   .contact-form {
     width: 100%;
     margin: 10px;
+    margin-left: 45px;
   }
+  .contact-form-h2{
+      font-size:15px ;
+  }
+
   .contact-map {
     width: 100%;
     margin: 10px;
   }
-}*/
+  .in-name{
+    width: 200%;
+  }
+
+  .in-email{
+    width: 200%;
+  }
+
+  .in-msg{
+    width: 200%;
+  }
+}
 
 /* Tablet devices (min-width: 481px and max-width: 768px) 
 @media only screen and (min-width: 481px) and (max-width: 768px) {
