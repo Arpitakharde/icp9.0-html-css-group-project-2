@@ -4,54 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login form</title>
+    <link rel="stylesheet" href="./../css/login.css">
     <link rel="stylesheet" href="./../style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-        .body{
-            background-color: rgb(194, 189, 189);
-        }
-
-        .form-section{
-            width: 100%;
-           
-            display: flex;
-            text-align: center;
-            margin-top: 150px;
-        }
-
-        .form{
-            width: 350px;
-            height:300px;
-         
-            display:block;
-            margin: 0px auto;
-        }
-  .form h1{
-    font-size: 30px;
-    margin-bottom: 15px;
-  }
-  .form p {
-    color: gray;
-    margin-bottom: 30px;
-  }
-     .form-btn{
-       text-decoration: none;
-       border: none;
-       background-color:rgb(220, 86, 86);
-        color: white;
-        height:40px;
-        width: 270px;
-        margin-top: 13px;
-        font-size: 20px;
-        cursor: pointer;
-        }
-        .input{
-            
-            height: 35px;
-            padding: 0px 10px;
-            border: none;
-            width: 270px;
-        }
         
         </style>
 
@@ -74,7 +30,7 @@
                 </div>
             </nav>
             <section class="form-section">
-                <form class="form">
+                <form class="form box-shadow box-shadow1 ">
                 <h1>Login to my account</h1>
                 <p>Enter your e-mail and password</p>
                  
@@ -82,11 +38,14 @@
                
                 <input class="input" type="password" placeholder="password"/><br></br>
                 <button class=form-btn>Login</button>
-                <p></p>
+                <p class="form-para">This site is protected by hCaptcha and the hcaptcha privacy police and Term of service apply</p>
                 </form>
-                </section>
+                <p class="below-text">New customer? <span style="color: green;">Create your account</span></p>
+                
+                <p class="below-text">Last password? <span style="color: green;">Recover password</span></p>
+            </section>
 
-            </header>
+             </header>
             
 
 
