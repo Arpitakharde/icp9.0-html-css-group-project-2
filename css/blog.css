@@ -4,6 +4,89 @@
     box-sizing: border-box;
 }
 
+.blogs-container {
+  width: 80%;
+  margin: 50px auto 50px;
+  border-radius: 10px;
+ 
+  
+}
+.blogs-container h1{
+  text-align: center;
+  margin-top: 50px;
+  font-size: 40px;
+  font-family: "Marck Script", cursive;
+  font-weight: normal;
+  margin-bottom: 30px;
+}
+
+.blog-entry {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.blogs-image {
+  float: left;
+  margin-right: 30px;
+
+}
+
+.blogs-info {
+  margin-top: 20px;
+}
+
+.blogs-info p {
+  margin-bottom: 10px;
+}
+
+.button1 {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:#c93015;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.button1:hover {
+  background-color: #3e8e41;
+}
+
+.social-medias {
+  margin-top: 10px;
+}
+
+.social-medias p {
+  margin-bottom: 5px;
+}
+
+.social-medias p span {
+  font-weight: bold;
+}
+
+.social-medias p a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.social-medias p a:hover {
+  text-decoration: underline;
+}
+
+.dots {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  cursor: pointer;
+}
+
+
 
 /* Main Section Styling */
 
@@ -19,7 +102,7 @@
 
 .blog-container {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     height: 75vh;
     box-shadow: 0 4px 8px 0 rgba(231, 226, 226, 0);
@@ -73,11 +156,6 @@
     text-align: justify;
   }
   
-  .blog-container {
-    display: flex;
-    justify-content: space-around;
-
-  }
   
  
   
@@ -97,6 +175,7 @@
     margin-bottom: 10px;
   }
   
+<<<<<<< HEAD
   .blog-button{
     margin-top: 50px;
     background-color: #4CAF50;
@@ -113,10 +192,14 @@
     cursor: pointer;
   
   }
+=======
+
+>>>>>>> 6318bdc3443d16ce32a36375001c00cb695f52f9
   .blog-button:hover{
     
     font-size:16px ;
   transition: 0.3s;
+  background-color: #3e8e41;
   }
 
   .blog1-container {
@@ -154,7 +237,7 @@ display: inline;
 }
 
 .blogcontent-box p {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: #666;
 }
 
@@ -181,11 +264,17 @@ display: inline;
 }
 
 .seasonal-article p {
+<<<<<<< HEAD
   font-size: 17px;
   color: #333;
   text-align: justify;
   margin-bottom: 10px;
   padding: 30px;
+=======
+  font-size: 1.2rem;
+  color: #333;
+  margin : 10px 0 20px 0;
+>>>>>>> 6318bdc3443d16ce32a36375001c00cb695f52f9
 }
 .seasonal-article img{
   width: 400px;
@@ -220,7 +309,24 @@ section h2 {
 
 .project p {
   flex: 1;
+ margin-top: 5px;
+ font-size: 17px;
 }
+.project a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color:#c93015;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
 
 .plant-of-the-month h2 {
   text-align: center;
