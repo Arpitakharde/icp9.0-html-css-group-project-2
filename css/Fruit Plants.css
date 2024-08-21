@@ -15,16 +15,17 @@
    
     
 }
-   }
+   
 
 
 
 .fruit-paragraph{
-    margin-top: 30px;
-    text-align: justify;
-    line-height: 1.4em;
+  margin-top: 30px;
+  text-align: justify;
+  line-height: 1.4em;
  padding: 20px 40px;
- font-size: 20px;
+ font-size: 22px;
+ font-family: "Crimson Text", serif;
 }
 .fruit-heading{
   
@@ -38,7 +39,7 @@
     height: 422px;
     width: 240px;
     background-color:white;
-    border: 1px solid rgb(4, 34, 4);
+    border: 2px double rgb(222, 214, 214);
     box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
     border-radius: 0px 0px 0px 29px;
     display:inline-block;
@@ -85,8 +86,7 @@
     width: 200px;
     margin-top: 13px;
     font-size: 20px;
-    border: 0px solid rgb(16, 64, 16);
-    cursor: pointer;
+   cursor: pointer;
 }
 .buy-now-btn1:hover{
     border: 3px solid rgb(17, 72, 17);
