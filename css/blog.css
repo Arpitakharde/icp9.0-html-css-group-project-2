@@ -7,7 +7,7 @@
 .blogs-container {
   width: 80%;
   margin: 50px auto 50px;
-  border-radius: 10px;
+ 
  
   
 }
@@ -21,14 +21,15 @@
 }
 
 .blog-entry {
-  border: 1px solid #ccc;
-  padding: 20px;
+  padding: 30px;
   margin-bottom: 20px;
 }
 
 .blogs-image {
   float: left;
-  margin-right: 30px;
+  margin-right: 40px;
+  margin-left: 0;
+  overflow: hidden;
 
 }
 
@@ -70,10 +71,6 @@
   font-weight: bold;
 }
 
-.social-medias p a {
-  color: #007bff;
-  text-decoration: none;
-}
 
 .social-medias p a:hover {
   text-decoration: underline;
@@ -155,9 +152,7 @@
     border-radius: 5px;
     text-align: justify;
   }
-  
-  
- 
+
   
   .blogcard-body {
     padding: 15px;
@@ -175,7 +170,6 @@
     margin-bottom: 10px;
   }
   
-<<<<<<< HEAD
   .blog-button{
     margin-top: 50px;
     background-color: #4CAF50;
@@ -192,9 +186,7 @@
     cursor: pointer;
   
   }
-=======
 
->>>>>>> 6318bdc3443d16ce32a36375001c00cb695f52f9
   .blog-button:hover{
     
     font-size:16px ;
@@ -264,17 +256,15 @@ display: inline;
 }
 
 .seasonal-article p {
-<<<<<<< HEAD
+
   font-size: 17px;
   color: #333;
   text-align: justify;
   margin-bottom: 10px;
   padding: 30px;
-=======
   font-size: 1.2rem;
   color: #333;
   margin : 10px 0 20px 0;
->>>>>>> 6318bdc3443d16ce32a36375001c00cb695f52f9
 }
 .seasonal-article img{
   width: 400px;
