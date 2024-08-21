@@ -45,7 +45,7 @@ h1{
 
 .me{
     text-align:center;
-    font-size:20px;
+    font-size:30px;
      font-family: "Marck Script", cursive;
 }
 
@@ -55,7 +55,7 @@ body{
 
 div img{
     width:600px;
-    height:625px;
+    height:650PX;
     margin:10px 30px;
 }
 
@@ -139,7 +139,7 @@ footer{
 
 .team-section .container1 .row .title p{
     font-size:18px;
-    font-family:sans-serif;
+    font-family:mukta;
     margin:30px 0;
     color:black;
 }
