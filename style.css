@@ -5,26 +5,27 @@
 }
 
 .home-header{
- width: 100%;
-height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 
 .navbar{
   width: 70px;
-color: white;
-width: 100%;
-background-color: rgb(29, 120, 53);
- display: flex;
- justify-content: space-between;
- align-items: center;
-   
+  color: white;
+  width: 100%;
+  background-color: rgb(29, 120, 53);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .icon{
   margin-left: 20px;
+  display: flex;
 }
+
 .icon i{
-  margin-left: 10px;
+    margin-left: 10px;
     font-size: 23px;
     padding:  7px 5px;
     cursor: pointer;
@@ -38,12 +39,16 @@ background-color: rgb(29, 120, 53);
   transition: 0.5s;
 }
 
+.leaf{
+  font-size: 50px;
+}
+
 .heading{
     color: white;
     text-align: center;
     font-size: 50px;
     color: rgb(29, 120, 53);
-   
+    display: flex;
 }
 
 .Vrindavan{
@@ -52,15 +57,21 @@ background-color: rgb(29, 120, 53);
     font-weight: normal;
     font-family: "Marck Script", cursive;
 }
+
+.vihar{
+  font-size: 50px;
+}
+
 .menu{
     color: white;
     text-align: end;
+    display: flex;
+    align-items: center;
 }
 
 .menu a{
     color: white;
     padding: 10px 20px;
-    font-size: 20px;
     text-decoration:  none;
     cursor: pointer;
     font-weight: bold;
@@ -70,7 +81,11 @@ background-color: rgb(29, 120, 53);
   border-radius: 25px;
   background-color: white;
   color: rgb(79, 203, 79);
-    transition: 0.5s;
+  transition: 0.5s;
+}
+
+.menu-item{
+  font-size: 20px;
 }
 
 /* header section start */
@@ -92,7 +107,7 @@ background-color: rgb(29, 120, 53);
 }
 
 .tagline h1{
-color: #ff5500;
+color: #ff9900;
 text-align: start;
 margin-top: 100px;
 font-size: 50px;
@@ -123,7 +138,7 @@ font-family: "Marck Script", cursive;
   position:fixed;
   bottom:0;
   right: 0;
-  height: 45px;
+  height: 40px;
   margin: 10px;
  }
 
@@ -206,8 +221,6 @@ margin-left: 160px;
 .secound-img:hover{
   transform: translateY(-5px);
   transition: 0.5s;
-  
-  
 
 }
  
@@ -265,7 +278,6 @@ margin-left: 160px;
 
 /* media query */
 
-
 footer {
     width: 100%;
     background-color: rgb(29, 120, 53);
@@ -309,6 +321,7 @@ footer {
   .footer-bottom p {
     margin: 0;
   }
+
   /*box shahdo used for webside*/
   .box-shadow{
     box-shadow: 0 0 10px rgba(18, 18, 18, 0.1);
@@ -320,4 +333,59 @@ footer {
 
 
 
+/* Mobile device */
+@media screen and (max-width: 500px) {
+  .Vrindavan{
+    font-size: 30px;
+  }
 
+  .menu-item{
+    font-size: 15px;
+  }
+
+  .icon{
+    margin-left: 2px;
+    flex-direction: column;
+  }
+
+  .icon i{
+    margin-left: 2px;
+    font-size: 13px;
+    padding:  4px 3px;
+  }
+
+  .leaf{
+    font-size: 30px;
+  }
+
+  .vihar{
+    font-size: 40px;
+  }
+
+  .menu{
+    color: white;
+    text-align: start;
+    display: flex;
+  }
+
+  .menu a{
+      padding: 5px 7px;
+  }
+
+  .menu a:hover{
+    border-radius: 20px;
+  }
+  
+}
+
+
+/* Tablet device */
+@media screen and (min-width: 501px) and (max-width: 768px) {
+  
+}
+
+
+/* Desktop device */
+@media screen and (min-width: 769px) {
+  
+}
