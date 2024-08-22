@@ -17,8 +17,6 @@
 }
    
 
-
-
 .fruit-paragraph{
   margin-top: 30px;
   text-align: justify;
@@ -93,7 +91,7 @@
    
     box-shadow: 0px 0px 10px 2px ;
     transition: 0.3s;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 
