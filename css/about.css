@@ -42,11 +42,14 @@ h1{
     width:29px;
     margin:0;
 }
+.welcome{
+    font-size: 40px;
+}
 
-.me{
-    text-align:center;
-    font-size:30px;
-     font-family: "Marck Script", cursive;
+.vihar{
+    color: #ff9900;
+    font-weight: normal;
+    
 }
 
 body{
@@ -94,13 +97,13 @@ div img{
 
 .box{
     padding:20px;
-    border:1px solid #000;
+   
     margin:10px;
     width:50%;
     height:200px;
     margin:18px;
     padding:25px;
-    box-shadow:0 0 5px 5px black;
+ 
 }
 
 footer{

@@ -64,6 +64,7 @@
 
 .menu{
     color: white;
+   
     text-align: end;
     display: flex;
     align-items: center;
@@ -145,8 +146,12 @@ font-family: "Marck Script", cursive;
 
 /* header section khatam huaaa*/
 
+/*category section start huaa*/
+
 .main-cantain{
+  
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
  }
@@ -251,7 +256,7 @@ margin-left: 160px;
 /* home feature*/
 .home-feature{
   width: 100%;
-  background-color: #ff9900;
+  
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -378,15 +383,23 @@ footer {
   }
   /*feature*/
   .home-feature{
+   
     width: 50%;
+    
   }
   .home-feature-heading{
     font-size: 30px;
+    margin-bottom: 20px;
+    
+  }
+  .feature1{
+    margin-bottom: 30px;
   }
 
+  
   /*footer for small device*/
   footer{
-    width: 50%;
+    width: 80%;
   }
   
 }
