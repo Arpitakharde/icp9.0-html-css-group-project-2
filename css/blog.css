@@ -116,7 +116,6 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     text-align: center;
-    
     overflow: hidden;
   }
   
@@ -176,7 +175,6 @@
     border: none;
     color: #ffffff;
     padding: 10px 20px;
-    
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
@@ -236,12 +234,11 @@ display: inline;
 .seasonal-content {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
   gap: 20px;
 }
 
 .seasonal-article {
-  flex: 1 1 calc(50% - 20px); /* Two articles per row */
+  flex: 1 1 calc(50% - 10px); /* Two articles per row */
   box-sizing: border-box;
   padding: 20px;
   background-color: #fff;
