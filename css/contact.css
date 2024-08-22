@@ -194,73 +194,86 @@ label{
     margin: 10px;
   }
   .contact-form {
-    width: 100%;
-    margin: 10px;
-    margin-left: 45px;
+    width: 90%;
+    margin-left: 35px;
+    
   }
   .contact-form-h2{
-      font-size:15px ;
+      font-size:14px ;
   }
 
   .contact-map {
     width: 100%;
     margin: 10px;
   }
+
+  .contact-map1 {
+    width: 100%;
+    margin: 10px;
+  }
+
+  
   .in-name{
-    width: 200%;
+    width: 150%;
   }
 
   .in-email{
-    width: 200%;
+    width: 150%;
   }
 
   .in-msg{
-    width: 200%;
+    width: 150%;
   }
 }
 
-/* Tablet devices (min-width: 481px and max-width: 768px) 
+/* Tablet devices (min-width: 481px and max-width: 768px) */
+
 @media only screen and (min-width: 481px) and (max-width: 768px) {
   .contact-container {
     flex-direction: row;
   }
   .contact-image {
-    width: 40%;
-    margin: 20px;
+    width: 60%;
+    height: 50%;
+    
   }
   .contact-info {
-    width: 40%;
-    margin: 20px;
+    width: 80%;
+    height:50%;
+    
+  }
+  p{
+    font-size: 15px;
   }
   .contact-form {
-    width: 80%;
+    width: 100%;
     margin: 20px;
   }
-  .contact-map {
-    width: 80%;
-    margin: 20px;
-  }
-}*/
 
-/* Desktop devices (min-width: 769px) 
-@media only screen and (min-width: 769px) {
-  .contact-container {
-    flex-direction: row;
-  }
-  .contact-image {
-    width: 30%;
-    margin: 30px;
-  }
-  .contact-info {
-    width: 30%;
-    margin: 30px;
-  }
-  .contact-form {
-    width: 60%;
-    margin: 30px;
+  .contact-h2{
+    font-size: 14px;
   }
   .contact-map {
-    width: 60%;
-    margin: 30px;
+    width: 100%;
+    margin: 20px;
   }
-} */
+
+  .contact-map1 {
+    width: 100%;
+    margin: px;
+  }
+
+
+  .in-name{
+    width: 280%;
+  }
+
+  .in-email{
+    width: 280%;
+  }
+
+  .in-msg{
+    width: 280%;
+  }
+}
+

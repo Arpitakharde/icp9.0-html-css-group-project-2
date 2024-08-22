@@ -64,6 +64,7 @@
 
 .menu{
     color: white;
+   
     text-align: end;
     display: flex;
     align-items: center;
@@ -145,8 +146,12 @@ font-family: "Marck Script", cursive;
 
 /* header section khatam huaaa*/
 
+/*category section start huaa*/
+
 .main-cantain{
+  
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-evenly;
   text-align: center;
  }
@@ -250,12 +255,13 @@ margin-left: 160px;
 
 /* home feature*/
 .home-feature{
+  width: 100%;
   
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
   text-align: center;
   padding: 30px 0px;
-  margin: 0px 100px;
   margin-bottom: 20px;
  
 }
@@ -374,6 +380,26 @@ footer {
 
   .menu a:hover{
     border-radius: 20px;
+  }
+  /*feature*/
+  .home-feature{
+   
+    width: 50%;
+    
+  }
+  .home-feature-heading{
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+  }
+  .feature1{
+    margin-bottom: 30px;
+  }
+
+  
+  /*footer for small device*/
+  footer{
+    width: 80%;
   }
   
 }
