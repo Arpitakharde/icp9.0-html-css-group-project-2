@@ -4,16 +4,7 @@
     box-sizing: border-box;
 }
 
-.blogs-container {
-  width: 80%;
-  margin: 50px auto 50px;
- 
- 
-  
-}
 .blogs-container h1{
- 
-  
   text-align: center;
   margin-top: 50px;
   font-size: 40px;
@@ -44,7 +35,7 @@
 }
 
 .button1 {
-  display: inline-block;
+
   padding: 10px 20px;
   background-color:#c93015;
   color: white;
@@ -94,8 +85,7 @@
   margin-top: 50px;
   font-size: 40px;
   font-family: "Marck Script", cursive;
-  font-weight: normal;
-  margin-bottom: 30px;
+ 
   
 }
 
@@ -103,18 +93,18 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    height: 75vh;
-    box-shadow: 0 4px 8px 0 rgba(231, 226, 226, 0);
-    
-  }
+    flex-wrap: wrap;
+   
+   }
  
   
   .blog-card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    flex-wrap: wrap;
     width: 300px;
-    margin: 0 20px;
+    margin: 20px;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -173,14 +163,15 @@
   }
   
   .blog-button{
-    margin-top: 50px;
-    background-color: #4CAF50;
+   
+    background-color:#c93015;
     border: none;
     color: #ffffff;
     padding: 10px 20px;
     text-decoration: none;
     font-weight: bold;
     display: inline-block;
+    flex-wrap: wrap;
     font-size: 15px;
     margin: 4px 2px;
     border-radius: 5px;
@@ -207,7 +198,7 @@
 }
 
 .blog-content {
-display: inline;
+  display: inline;
   flex-wrap: wrap;
   justify-content: space-around;
   padding: 20px;
@@ -286,7 +277,7 @@ section h2 {
 
 .project {
   display: flex;
-  align-items: center;
+align-items: center;
   margin-bottom: 20px;
 }
 
@@ -298,18 +289,17 @@ section h2 {
 }
 
 .project p {
-  flex: 1;
+
  margin-top: 5px;
  font-size: 17px;
 }
 .project a {
+  
   display: inline-block;
   padding: 10px 20px;
   background-color:#c93015;
   color: white;
-  text-align: center;
   text-decoration: none;
-  display: inline-block;
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
@@ -438,22 +428,15 @@ section h2 {
       margin-right: 20px;
   }
   
-  .footer-content h3 {
-      font-size: 24px;
-  }
-  
-  .footer-content p {
-      font-size: 16px;
-  }
-  
-  .footer-bottom {
-      font-size: 14px;
-  }
-}
+
 
 
 /* Mobile Devices (up to 480px) */
 @media (max-width: 480px) {
+
+  .project{
+    flex-wrap: wrap;
+  }
   .blogs-container {
       width: 95%;
       margin: 20px auto;
@@ -526,9 +509,11 @@ section h2 {
 
 /* Tablets (481px to 768px) */
 @media (min-width: 481px) and (max-width: 768px) {
-  .blogs-container {
-      width: 90%;
-      margin: 30px auto;
+  .project{
+    flex-wrap: wrap;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 30px;
   }
   
   .blogs-container h1 {
@@ -584,16 +569,5 @@ section h2 {
       margin-right: 15px;
   }
   
-  .footer-content h3 {
-      font-size: 22px;
-  }
-  
-  .footer-content p {
-      font-size: 15px;
-  }
-  
-  .footer-bottom {
-      font-size: 13px;
-  }
-}
+ 
 
